@@ -1,0 +1,16 @@
+{
+    "validAccount": {
+        "username": "thutran",
+        "password": "123456",
+        "fullName" : "Thư",
+        "email": "thutran@gmail.com",
+        "birthday": "1/8/2022",
+        "newPassword": "123456"
+    },
+
+    "adminAccoount":{
+        "username": "admin",
+        "password": "admin"
+    }
+
+}

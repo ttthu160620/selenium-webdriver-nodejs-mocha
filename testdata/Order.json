@@ -1,0 +1,22 @@
+{
+    "validInfor": {
+        "address": "Thu Duc",
+        "phoneNumber": "0123456789"
+    },
+
+    "emptyMessage": {
+        "address": "Địa chỉ không được bỏ trống.",
+        "phoneNumber": "Số điện thoại không được bỏ trống."
+    },
+
+    "items": {
+        "backPack": "Balo Targus TSB855-70 S Black",
+        "handBack": "Túi Xách Simplecarry Gymbag S Black"
+    },
+
+    "attribute": {
+        "value": "value",
+        "min": "min",
+        "max": "max"
+    }
+}

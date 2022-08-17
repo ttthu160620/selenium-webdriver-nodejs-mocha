@@ -1,0 +1,34 @@
+{
+    "invalidInfor": {
+        "password" : "12345",
+        "confirmPassword" : "1",
+        "email" : "123@123"
+    },
+
+    "validInfor": {
+        "username": "thuuuu",
+        "password" : "123456",
+        "fullName" : "Trần Thư",
+        "email": "thuu@gmail.com",
+        "birthday": "1/2/2002"
+
+    },
+
+    "emptyMessage": {
+        "username": "Tên đăng nhập không được bỏ trống.",
+        "password": "Mật khẩu không được bỏ trống.",
+        "confirmPassword": "Xác nhận mật khẩu không được bỏ trống.",
+        "fullName": "Họ tên không được bỏ trống.",
+        "email": "Email không được bỏ trống."
+    },
+
+    "invalidMessage": {
+        "password": "Mật khẩu phải lớn hơn 6 ký tự.",
+        "confirmPassword": "Xác nhận mật khẩu không đúng. Mời bạn nhập lại mật khẩu.",
+        "email": "Email không hợp lệ."
+    },
+
+    "successfullMessage":{
+        "successfullRegister" : "Bạn đã đăng ký tài khoản thành công!"
+    }  
+}

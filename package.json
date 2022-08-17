@@ -1,0 +1,30 @@
+{
+  "name": "selenium-web-sale",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha ./testcases/user/Search.js --timeout 600000 --reporter mochawesome --reporter-options reportDir=./myReport,reportFilename=SeleniumReport",
+    "mocha": "mocha --no-timeouts",
+    "single": "cross-env CONFIG_FILE=single ./node_modules/.bin/mocha specs/single_test.js conf/single.conf.js",
+    "parallel": "cross-env CONFIG_FILE=parallel ./node_modules/.bin/mocha ./testcases/user/Search.js ./test.conf.js --timeout=100000",
+    "create-object": "node ./create-object.js"
+  },
+  "lstBuild": [
+    "&& mocha Login.js --timeout 6000000 --parallel",
+    "&& mocha MyAccount.js --timeout 6000000 --parallel"
+  ],
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.3.6",
+    "chromedriver": "^103.0.0",
+    "delay": "^5.0.0",
+    "geckodriver": "^3.0.2",
+    "jquery": "^3.6.0",
+    "mocha": "^10.0.0",
+    "mochawesome": "^7.1.3",
+    "selenium-webdriver": "^4.3.1"
+  }
+}
