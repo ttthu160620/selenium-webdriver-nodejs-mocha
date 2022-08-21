@@ -1,5 +1,5 @@
-const INSERT_CATEGORY_BUTTON = "//a[contains(text(),'Thêm danh mục mới')]";
-const CATEGORY_NAME_TEXTBOX = "//input[@name='CatName']";
+const INSERT_BRAND_BUTTON = "//a[contains(text(),'Thêm thương hiệu mới')]";
+const CATEGORY_NAME_TEXTBOX = "//input[@name='BrandName']";
 const SAVE_BUTTON = "//button[@class='btn btn-success']";
 const VIEW_LIST_BUTTON = "//a[contains(@class,'viewlist')]";
 const DELETE_ICON = "//tbody/tr[last()]//a[contains(@class,'delete')]";
@@ -7,15 +7,15 @@ const EDIT_ICON = "//tbody/tr[last()]//a[contains(@class,'edit')]";
 const DELETE_BUTTON = "//button[contains(@class,'delete')]";
 const UPDATE_BUTTON = "//button[@class='btn btn-outline-success']";
 const INSERT_SUCCESSFULL_MESSAGE = "//div[@class='alert alert-success']";
-const LAST_CATEGORY_NAME = "//tbody/tr[last()]/td[1]";
+const LAST_BRAND_NAME = "//tbody/tr[last()]/td[1]";
 const LIST_ROW_NUMBER = "//tbody/tr";
 
-class CategoryPageUI{
-    get insertCategoryButton(){
-        return INSERT_CATEGORY_BUTTON;
+class BrandPageUI{
+    get insertBrandButton(){
+        return INSERT_BRAND_BUTTON;
     }
 
-    get categoryNameTextbox(){
+    get brandNameTextbox(){
         return CATEGORY_NAME_TEXTBOX;
     }
 
@@ -47,8 +47,8 @@ class CategoryPageUI{
         return INSERT_SUCCESSFULL_MESSAGE;
     }
 
-    get lastCategoryName(){
-        return LAST_CATEGORY_NAME;
+    get lastBrandName(){
+        return LAST_BRAND_NAME;
     }
 
     get listRowNumber(){
@@ -56,4 +56,4 @@ class CategoryPageUI{
     }
 }
 
-module.exports = new CategoryPageUI();
+module.exports = new BrandPageUI();

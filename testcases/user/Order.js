@@ -8,7 +8,7 @@ let myAccountPage = require("../../actions/pageObject/userPageObject/MyAccountPa
 let assert = require("assert");
 var addContext = require("mochawesome/addContext");
 
-describe('Search', async function(){
+describe('Order', async function(){
     let driver = null;
     
     before('Login successfully', async function(){
@@ -29,7 +29,7 @@ describe('Search', async function(){
         await loginPage.verifyLoginSuccessfully(loginData.validAccount.fullName);
     });
 
-    it('TC01: Order unsuccessfully if cart does not have item', async function(){
+    it('TC01 Order unsuccessfully if cart does not have item', async function(){
         homePage.clickToCartLink();
         await driver.sleep(1000);
         orderPage.clickToOrderButton();
@@ -39,7 +39,7 @@ describe('Search', async function(){
         await alert.accept();
     });
 
-    it('TC02: Choose any 1 item add to cart', async function(){
+    it('TC02 Choose any 1 item add to cart', async function(){
         homePage.clickToHomeIcon();
         await driver.sleep(1000);
         homePage.inputSearchTextbox(orderData.items.backPack);
@@ -59,7 +59,7 @@ describe('Search', async function(){
         await orderPage.verifyTotalAmount(orderData.attribute.value);
     });
 
-    it('TC03: Increase quantity in cart', async function(){
+    it('TC03 Increase quantity in cart', async function(){
         orderPage.clickToPlusIcon();
         await driver.sleep(1000);
         orderPage.clickToPlusIcon();
@@ -71,7 +71,7 @@ describe('Search', async function(){
         await orderPage.verifyTotalAmount(orderData.attribute.value);
     });
 
-    it('TC04: Descrease quantity in cart', async function(){
+    it('TC04 Descrease quantity in cart', async function(){
         orderPage.clickToMinusIcon();
         await driver.sleep(1000);
         orderPage.clickToMinusIcon();
@@ -81,7 +81,7 @@ describe('Search', async function(){
         await orderPage.verifyTotalAmount(orderData.attribute.value);
     });
 
-    it('TC05: Add other items to cart', async function(){
+    it('TC05 Add other items to cart', async function(){
         orderPage.clickToAddAnotherItemLink();
         await driver.sleep(1000);
         homePage.inputSearchTextbox(orderData.items.handBack);
@@ -94,13 +94,13 @@ describe('Search', async function(){
         await driver.sleep(1000);
     });
 
-    it('TC06: Remove item in cart', async function(){
+    it('TC06 Remove item in cart', async function(){
         orderPage.clickToDeleteHandbackButton();
         await driver.sleep(1000);
         await orderPage.verifyTotalAmount(orderData.attribute.value);
     });
 
-    it('TC07: Order unsuccessfully with empty address and phone number', async function(){
+    it('TC07 Order unsuccessfully with empty address and phone number', async function(){
         orderPage.clickToOrderButton();
         await driver.sleep(1000);
         await orderPage.verifyOrderPopupDisplayed();
@@ -111,7 +111,7 @@ describe('Search', async function(){
         orderPage.clickToClosePopupIcon();
     });
 
-    it ('TC08: Order successfully with valid data', async function(){
+    it ('TC08 Order successfully with valid data', async function(){
         orderPage.clickToOrderButton();
         await driver.sleep(1000);
         orderPage.inputAddressTextbox(orderData.validInfor.address);

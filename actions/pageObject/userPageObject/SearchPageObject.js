@@ -41,7 +41,6 @@ class SearchPageObject extends PageBase{
     async getListItemPage1Text(){
         let list = await this.listItemInPage1();
         for(let i =0; i<list.length;i++){
-            console.log(i);
             let text = list[i].getText().then(function(result) {
                 console.log(result);
                 chai.assert.isTrue(contains(result,'Túi Xách'));

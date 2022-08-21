@@ -18,21 +18,21 @@ describe('Search', async function(){
         await driver.sleep(1000);
     })
 
-    it('Search-01: Search with empty data', async function(){
+    it('Search-01 Search with empty data', async function(){
         homePage.inputSearchTextbox("");
         homePage.clickToSearchButton();
         await driver.sleep(1000);
         searchPage.clickBackToHomePageLink();
     });
 
-    it('Search-02: Search with data is not existing', async function(){
+    it('Search-02 Search with data is not existing', async function(){
         homePage.inputSearchTextbox("aaaaaaaaaaaaaa");
         homePage.clickToSearchButton();
         await driver.sleep(1000);
         await searchPage.verifyNotExistingItemMessageIsDisplayed();
     });
 
-    it('Search-03: Search with ralative data', async function(){
+    it('Search-03 Search with ralative data', async function(){
         homePage.inputSearchTextbox("túi xách");
         homePage.clickToSearchButton();
         await driver.sleep(1000);
@@ -41,7 +41,7 @@ describe('Search', async function(){
         await searchPage.getListItemPage1Text();
     });
 
-    it ('Search-04: Search with absolutely item', async function(){
+    it ('Search-04 Search with absolutely item', async function(){
         homePage.inputSearchTextbox("Túi Xách Targus TBT268AP-72 M Black");
         homePage.clickToSearchButton();
         await driver.sleep(1000);

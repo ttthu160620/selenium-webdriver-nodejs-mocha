@@ -1,0 +1,23 @@
+{
+    "category": {
+        "newCateName": "Túi đeo chéo",
+        "updateCateName": "Túi đeo chéoooo",
+        "insertMessage": "Thêm thành công"
+    },
+    "brand": {
+        "newBrandName": "Gucci",
+        "updateBrandName": "Channel",
+        "insertMessage": "Thêm thành công"
+    },
+    "product": {
+        "name": "Balo",
+        "description": "Balo",
+        "price": "100000",
+        "quantity": "2",
+        "categoryID" : "2",
+        "brandID": "3",
+        "updateName": "Balooo",
+        "insertMessage": "Thêm thành công"
+    }
+
+}

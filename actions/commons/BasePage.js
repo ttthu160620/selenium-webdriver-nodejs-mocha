@@ -51,6 +51,10 @@ class PageBase{
 		return driver.findElements(this.getByXpath(xpathLocator));
 	}
 
+	getListElementsSize(driver, xpathLocator){
+		return this.getListWebElements(driver, xpathLocator).size();
+	}
+
     sendKeyTextbox(driver, xpathLocator, textValue){
         let element = this.getWebElement(driver, xpathLocator);
         element.clear();

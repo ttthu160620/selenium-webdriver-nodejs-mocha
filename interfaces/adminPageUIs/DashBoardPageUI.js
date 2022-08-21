@@ -1,7 +1,7 @@
 const DASHBOARD_LINK = "//ul[@id='side-main-menu']//a[text()='Trang chủ ']";
 const BRANCH_LINK = "//ul[@id='side-main-menu']//a[text()='Thương hiệu ']";
-const PRODUCT_LINK = "//ul[@id='side-main-menu']//a[text()='Loại sản phẩm ']";
-const CATEGORY_LINK ="//ul[@id='side-main-menu']//a[text()='Sản phẩm ']";
+const PRODUCT_LINK = "//ul[@id='side-main-menu']//a[text()='Sản phẩm ']";
+const CATEGORY_LINK ="//ul[@id='side-main-menu']//a[text()='Loại sản phẩm ']";
 const LOGOUT_BUTTON = "//span[text()='Logout']";
 
 class DashboardPageUI{

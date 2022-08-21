@@ -9,17 +9,17 @@ describe("Register", function(){
 
     before("Open Homepage", async function(){
         driver = await openBrowser.openHomePage();
-        await registerPage.constructorDriver(driver);
-        await homePage.constructorDriver(driver);
+        registerPage.constructorDriver(driver);
+        homePage.constructorDriver(driver);
     });
 
     this.beforeEach("Click to Register Link", async function(){
-        await homePage.clickToRegisterLink();
+        homePage.clickToRegisterLink();
         await driver.sleep(2000);
     });
 
-    it("TC01: Register with empty value", async function(){
-        await registerPage.clickToRegisterButton();
+    it("TC01 Register with empty value", async function(){
+        registerPage.clickToRegisterButton();
         await driver.sleep(1000);
         await registerPage.verifyEmptyUsernameMessage(registerData.emptyMessage.username);
         await registerPage.verifyEmptyPasswordMessage(registerData.emptyMessage.password);
@@ -28,36 +28,36 @@ describe("Register", function(){
         await registerPage.verifyEmptyEmailMessage(registerData.emptyMessage.email);
     });
 
-    it("TC02: Register with password have less than 6 characters", async function(){
-        await registerPage.inputPasswordTextbox(registerData.invalidInfor.password);
-        await registerPage.clickToRegisterButton();
+    it("TC02 Register with password have less than 6 characters", async function(){
+        registerPage.inputPasswordTextbox(registerData.invalidInfor.password);
+        registerPage.clickToRegisterButton();
         await driver.sleep(1000);
         await registerPage.verifyInvalidPasswordMessage(registerData.invalidMessage.password)
     });
 
-    it("TC03: Register with confirm password different password", async function(){
-        await registerPage.inputPasswordTextbox(registerData.validInfor.password);
-        await registerPage.inputConfPasswordTextbox(registerData.invalidInfor.confirmPassword);
-        await registerPage.clickToRegisterButton();
+    it("TC03 Register with confirm password different password", async function(){
+        registerPage.inputPasswordTextbox(registerData.validInfor.password);
+        registerPage.inputConfPasswordTextbox(registerData.invalidInfor.confirmPassword);
+        registerPage.clickToRegisterButton();
         await driver.sleep(1000);
         await registerPage.verifyInvalidConfPasswordMessage(registerData.invalidMessage.confirmPassword);
     });
 
-    it("TC04: Register with invalid email", async function(){
-        await registerPage.inputEmailTextbox(registerData.invalidInfor.email);
-        await registerPage.clickToRegisterButton();
+    it("TC04 Register with invalid email", async function(){
+        registerPage.inputEmailTextbox(registerData.invalidInfor.email);
+        registerPage.clickToRegisterButton();
         await driver.sleep(1000);
         await registerPage.verifyInvalidEmailMessage(registerData.invalidMessage.email);
     });
 
-    it("TC05: Register successfully", async function(){
-        await registerPage.inputUsernameTextbox(registerPage.getRandomUsername());
-        await registerPage.inputPasswordTextbox(registerData.validInfor.password);
-        await registerPage.inputConfPasswordTextbox(registerData.validInfor.password);
-        await registerPage.inputFullNameTextbox(registerData.validInfor.fullName);
-        await registerPage.inputEmailTextbox(registerData.validInfor.email);
-        await registerPage.inputBirthdayTextbox(registerData.validInfor.birthday);
-        await registerPage.clickToRegisterButton();
+    it("TC05 Register successfully", async function(){
+        registerPage.inputUsernameTextbox(registerPage.getRandomUsername());
+        registerPage.inputPasswordTextbox(registerData.validInfor.password);
+        registerPage.inputConfPasswordTextbox(registerData.validInfor.password);
+        registerPage.inputFullNameTextbox(registerData.validInfor.fullName);
+        registerPage.inputEmailTextbox(registerData.validInfor.email);
+        registerPage.inputBirthdayTextbox(registerData.validInfor.birthday);
+        registerPage.clickToRegisterButton();
         await driver.sleep(1000);
         await registerPage.verifySuccessfullRegisterMessage(registerData.successfullMessage.successfullRegister);
     });

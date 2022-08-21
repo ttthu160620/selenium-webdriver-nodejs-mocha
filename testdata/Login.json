@@ -8,7 +8,7 @@
         "newPassword": "123456"
     },
 
-    "adminAccoount":{
+    "adminAccount":{
         "username": "admin",
         "password": "admin"
     }

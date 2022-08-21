@@ -4,10 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "mocha ./testcases/user/Search.js --timeout 600000 --reporter mochawesome --reporter-options reportDir=./myReport,reportFilename=SeleniumReport",
+    "test": "mocha ./testcases/admin/Product.js --no-timeouts --reporter mochawesome --reporter-options reportDir=./myReport,reportFilename=SeleniumReport",
+    "parallel": "mocha ./testcases/user/*.js --no-timeouts --parallel --reporter mochawesome --reporter-options reportDir=./myReport,reportFilename=SeleniumReport",
     "mocha": "mocha --no-timeouts",
-    "single": "cross-env CONFIG_FILE=single ./node_modules/.bin/mocha specs/single_test.js conf/single.conf.js",
-    "parallel": "cross-env CONFIG_FILE=parallel ./node_modules/.bin/mocha ./testcases/user/Search.js ./test.conf.js --timeout=100000",
     "create-object": "node ./create-object.js"
   },
   "lstBuild": [

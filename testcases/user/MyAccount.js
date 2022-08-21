@@ -32,14 +32,14 @@ describe("Profile of user", async function(){
         await driver.sleep(2000);
     });
 
-    it("Verify user's info when login successful", async function(){
+    it("TC01 Verify user's info when login successful", async function(){
         await myAccountPage.verifyUsernameInfoValue(loginData.validAccount.username, "value");
         await myAccountPage.verifyEmailInfoValue(loginData.validAccount.email, "value");
         await myAccountPage.verifyFullNameInfoValue(loginData.validAccount.fullName, "value");
         await myAccountPage.verifyBirthdayInfoValue(loginData.validAccount.birthday, "value");
     });
 
-    it("Change password have less than 6 characters", async function(){
+    it("TC02Change password have less than 6 characters", async function(){
         myAccountPage.clickToChangePasswordCheckboxByJS();
         await driver.sleep(1000);
         await myAccountPage.verifyChangPasswordIsSelected();
@@ -49,7 +49,7 @@ describe("Profile of user", async function(){
         await myAccountPage.verifyUpdateButtonIsDisabled();
     });
 
-    it("Change password have confirm password differrent with password", async function(){
+    it("TC03 TC0Change password have confirm password differrent with password", async function(){
         myAccountPage.clickToChangePasswordCheckboxByJS();
         await driver.sleep(1000);
         await myAccountPage.verifyChangPasswordIsSelected();
@@ -59,7 +59,7 @@ describe("Profile of user", async function(){
         await myAccountPage.verifyUpdateButtonIsDisabled();
     });
 
-    it("Change password successfully",async function(){
+    it("TC04 Change password successfully",async function(){
         this.retries(1);
         myAccountPage.clickToChangePasswordCheckboxByJS();
         await driver.sleep(1000);
