@@ -1,6 +1,6 @@
 const { Builder} = require("selenium-webdriver");
-require("chromedriver")
-require("geckodriver")
+require("chromedriver");
+require("geckodriver");
 
 class getBrowserDriver{
     constructor(){
@@ -13,6 +13,7 @@ class getBrowserDriver{
         this.driver.get("http://localhost:3000/home");
         return this.driver;
     }   
+
 }
 
 
