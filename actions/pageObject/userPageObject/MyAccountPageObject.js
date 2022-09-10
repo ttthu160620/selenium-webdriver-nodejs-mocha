@@ -103,12 +103,12 @@ class myAccountPageObject extends BasePage{
         assert.equal(await this.getLastOrderDateText(), orderDate);
     }
 
-    isBaloTSB855LinkHistoryDisplayed(){
-        return this.isElementDisplayed(this.driver, myAccountPageUIs.baloTSB855LinkHistory);
+    isBaloTSB855LinkHistoryDisplayed(productName){
+        return this.isElementDisplayed(this.driver, this.getDynamicLocator(myAccountPageUIs.baloTSB855LinkHistory, productName));
     }
 
-    async verifyBaloTSB855LinkHistoryDisplayed(){
-        chai.assert.isTrue(await this.isBaloTSB855LinkHistoryDisplayed(), "Balo TSB855 is not in history!");
+    async verifyBaloTSB855LinkHistoryDisplayed(productName){
+        chai.assert.isTrue(await this.isBaloTSB855LinkHistoryDisplayed(productName), "Balo TSB855 is not in history!");
     }
 
 }

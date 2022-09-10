@@ -8,7 +8,7 @@ class HomePageObject extends BasePage{
     }
 
     constructorDriver(constructorDriver){
-        this.driver = constructorDriver
+        this.driver = constructorDriver;
     }
 
     clickToHomeIcon(){

@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "mocha ./testcases/user/MyAccount.js --no-timeouts --reporter mochawesome --reporter-options  reportDir=./myReport,reportFilename=SeleniumReport ",
+    "test": "mocha ./testcases/user/Login.js --no-timeouts --reporter mochawesome --reporter-options  reportDir=./myReport,reportFilename=SeleniumReport ",
     "testExtra":"mocha ./log4js/fsmodule.js --reporter mochawesome --reporter-options reportDir=./myReport,reportFilename=SeleniumReport",
     "parallel": "mocha ./testcases/user/*.js --no-timeouts --parallel --reporter mochawesome --reporter-options reportDir=./myReport,reportFilename=SeleniumReport",
     "mocha": "mocha --no-timeouts",

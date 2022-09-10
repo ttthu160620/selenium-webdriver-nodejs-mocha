@@ -11,8 +11,8 @@ const CONFIRM_NEW_PASSWORD_TEXTBOX = "//input[@id='re_new_password']";
 const UPDATE_BUTTON = "//button[@id='btnCapNhat']";
 
 const ORDERED_HISTORY_LINK = "//a//span[text()='Lịch sử mua hàng']";
-const LAST_ORDER_DATE_TEXT = "//div[contains(@class,'order')][last()]//div[contains(@class,'orderDate')]";
-const BALO_TSB855_LINK_HISTORY = "//div[contains(@class,'order')][last()]//div[contains(@class,'orderDate')]/ancestor::div[contains(@class,'date')]//following-sibling::div[contains(@class,'item')]//a[text()='Balo Targus TSB855-70 S Black']";
+const LAST_ORDER_DATE_TEXT = "//div[contains(@class,'order')][1]//div[contains(@class,'orderDate')]";
+const DYNAMIC_ITEM_LINK_HISTORY_BY_TEXT = "//div[contains(@class,'order')][1]//div[contains(@class,'orderDate')]/ancestor::div[contains(@class,'date')]//following-sibling::div[contains(@class,'item')]//a[text()='%s']";
 
 class MyAccountPageUIs{
     get accountInfoLink(){
@@ -60,7 +60,7 @@ class MyAccountPageUIs{
     }
 
     get baloTSB855LinkHistory(){
-        return BALO_TSB855_LINK_HISTORY;
+        return DYNAMIC_ITEM_LINK_HISTORY_BY_TEXT;
     }
 }
 

@@ -1,7 +1,7 @@
 {
     "invalidInfor": {
         "password" : "12345",
-        "confirmPassword" : "1",
+        "confirmPassword" : "12345678",
         "email" : "123@123"
     },
 

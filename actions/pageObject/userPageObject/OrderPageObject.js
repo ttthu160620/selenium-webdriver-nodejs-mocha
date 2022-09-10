@@ -88,9 +88,9 @@ class OrderPageObject extends BasePage{
         assert.equal(await this.getEmptyPhoneMessage(), orderData.emptyMessage.phoneNumber);
     }
 
-    clickToBaloTSB855Link(){
-        this.scrollToViewByJS(this.driver, orderPageUI.baloTSB855Link);
-        this.clickToElementByJS(this.driver, orderPageUI.baloTSB855Link);
+    clickToBaloTSB855Link(productName){
+        //this.scrollToViewByJS(this.driver, orderPageUI.baloTSB855Link);
+        this.clickToElementByJS(this.driver, this.getDynamicLocator(orderPageUI.baloTSB855Link, productName));
     }
 
     clickToAddItemToCartButton(){
@@ -127,12 +127,12 @@ class OrderPageObject extends BasePage{
         chai.assert.isTrue(await this.isOrderPopupDisplayed(), "Cannot find popup!");
     }
 
-    clickToHandBackGymbagLink(){
-        this.clickToElement(this.driver, orderPageUI.handBackGymbagLink);
+    clickToHandBackGymbagLink(productName){
+        this.clickToElement(this.driver, this.getDynamicLocator(orderPageUI.handBackGymbagLink, productName));
     }
 
-    clickToDeleteHandbackButton(){
-        this.clickToElement(this.driver, orderPageUI.deleteHandBackButton);
+    clickToDeleteHandbackButton(productName){
+        this.clickToElement(this.driver, this.getDynamicLocator(orderPageUI.deleteHandBackButton, productName));
     }
 
     

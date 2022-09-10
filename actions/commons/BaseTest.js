@@ -1,4 +1,4 @@
-const { Builder} = require("selenium-webdriver");
+const { Builder, until} = require("selenium-webdriver");
 require("chromedriver");
 require("geckodriver");
 
@@ -8,7 +8,7 @@ class getBrowserDriver{
         //this.driver = new Builder().forBrowser('firefox').build();
     }
     openHomePage(){
-        this.driver.manage().setTimeouts( { implicit: 30000 } );
+        this.driver.manage().setTimeouts( { implicit: 5000 } );
         this.driver.manage().window().maximize();
         this.driver.get("http://localhost:3000/home");
         return this.driver;

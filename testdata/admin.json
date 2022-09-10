@@ -1,7 +1,7 @@
 {
     "category": {
         "newCateName": "Túi đeo chéo",
-        "updateCateName": "Túi đeo chéoooo",
+        "updateCateName": "Túi đeo chéo 1",
         "insertMessage": "Thêm thành công"
     },
     "brand": {
@@ -16,7 +16,7 @@
         "quantity": "2",
         "categoryID" : "2",
         "brandID": "3",
-        "updateName": "Balooo",
+        "updateName": "Balo123",
         "insertMessage": "Thêm thành công"
     }
 

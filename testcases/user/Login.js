@@ -18,7 +18,7 @@ describe("Login", function() {
     before("Open homepage", async function(){
         log.info("Pre-Condition - 01: Open homepage");
         driver = await getBrowserDriver.openHomePage();
-
+        await driver.sleep(2000);
         homePage.constructorDriver(driver);
         loginPage.constructorDriver(driver);
         registerPage.constructorDriver(driver);
@@ -36,10 +36,9 @@ describe("Login", function() {
         registerPage.clickToRegisterButton();
         await driver.sleep(1000);
         await registerPage.verifySuccessfullRegisterMessage(registerData.successfullMessage.successfullRegister);
-        
     })
     
-    it("TC01 Login with empty username", async function(){ 
+    it.only("TC01 Login with empty username", async function(){ 
         log.info("TC1 Login with empty username");
         log.info("Login - Step 01: Navigate to Login page");
         homePage.clickToLoginLink();
@@ -128,7 +127,11 @@ describe("Login", function() {
     });
 
     this.afterEach(function(){
+        if(this.currentTest.state == 'passed'){
+            log.info("-------------------PASSED-----------------");
+        }
         if(this.currentTest.state == 'failed'){
+            log.info("-------------------FAILED-----------------");
             //this.retries(1);
             let imageFileName = this.currentTest.title + '.jpeg';
             driver.takeScreenshot().then(

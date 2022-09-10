@@ -12,6 +12,7 @@ describe("Profile of user", async function(){
     before("Open brower and login", async function(){
         log.info("Pre-Condition - 01: Open homepage");
         driver = await openBrowser.openHomePage();
+        await driver.sleep(2000);
         homePage.constructorDriver(driver);
         myAccountPage.constructorDriver(driver);
         loginPage.constructorDriver(driver);
@@ -142,7 +143,11 @@ describe("Profile of user", async function(){
     });
 
     this.afterEach(function(){
+        if(this.currentTest.state == 'passed'){
+            log.info("-------------------PASSED-----------------");
+        }
         if(this.currentTest.state == 'failed'){
+            log.info("-------------------FAILED-----------------");
             let imageFileName = this.currentTest.title + '.jpeg';
             driver.takeScreenshot().then(
                 function(image){

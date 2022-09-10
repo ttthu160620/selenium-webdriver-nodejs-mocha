@@ -13,14 +13,20 @@ const ORDER_BUTTON_POPUP = "//button[@class='btn btn-success']";
 const CANCEL_BUTTON_POPUP = "//button[@class='btn btn-secondary']";
 const CLOSE_POPUP_BUTTON = "//button[@class='close']/span";
 
-const BALO_TSB855_LINK = "//h5//a[text()='Balo Targus TSB855-70 S Black']";
+const BALO_TSB855_LINK = "//h5//a[text()='%s']";
 const ADD_ITEM_TO_CART_BUTTON = "//div[@class='cart-box']/button[@type='submit']";
 const ITEM_AMOUNT = "//span[contains(@class,'amount')]";
 const TOTAL_AMOUNT = "//input[@id='sum']";
-const HAND_BACK_GYMBAG_LINK = "//h5//a[text()='Túi Xách Simplecarry Gymbag S Black']";
-const DELETE_HAND_BANK_BUTTON = "//a[text()='Túi Xách Simplecarry Gymbag S Black']/parent::p/following-sibling::form//button[text()='Xóa']";
+
+//Túi Xách Simplecarry Gymbag S Black
+const HAND_BACK_GYMBAG_LINK = "//h5//a[text()='%s']";
+const DELETE_HAND_BANK_BUTTON = "//a[text()='%s']/parent::p/following-sibling::form//button[text()='Xóa']";
 
 class OrderPageUI{
+    get orderTest(){
+        return BALO_TSB855_LINK_TEST;
+    }
+
 
     get orderButton(){
         return ORDER_BUTTON;
@@ -101,6 +107,7 @@ class OrderPageUI{
     get deleteHandBackButton(){
         return DELETE_HAND_BANK_BUTTON;
     }
+
 }
 
 module.exports = new OrderPageUI();

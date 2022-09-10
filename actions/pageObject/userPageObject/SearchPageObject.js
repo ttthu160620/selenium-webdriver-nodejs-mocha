@@ -1,6 +1,5 @@
 let PageBase = require("../../commons/BasePage.js");
 let searchPageUI = require("../../../interfaces/userPageUIs/SearchPageUI.js");
-let assert = require("assert");
 let chai = require('chai');
 const { contains } = require("jquery");
 
@@ -11,7 +10,7 @@ class SearchPageObject extends PageBase{
     }
 
     constructorDriver(constructorDriver){
-        this.driver = constructorDriver
+        this.driver = constructorDriver;
     }
 
     clickBackToHomePageLink(){
@@ -56,12 +55,12 @@ class SearchPageObject extends PageBase{
         chai.assert.isTrue(await this.isResultAbsoluteItemMessageDisplayed(), "Result different with 1");
     }
 
-    isBaloItemDisplayed(){
-        return this.isElementDisplayed(this.driver, searchPageUI.baloItem);
+    isBaloItemDisplayed(productName){
+        return this.isElementDisplayed(this.driver, this.getDynamicLocator(searchPageUI.baloItem, productName));
     }
 
-    async verifyBaloItemDisplayed(){
-        chai.assert.isTrue(await this.isBaloItemDisplayed(), "Balo is not displayed");
+    async verifyBaloItemDisplayed(productName){
+        chai.assert.isTrue(await this.isBaloItemDisplayed(productName), "Balo is not displayed");
     }
 
     

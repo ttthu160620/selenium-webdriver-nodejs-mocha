@@ -11,12 +11,13 @@ describe("Register", function(){
     before("Open Homepage", async function(){
         log.info("Pre-Condition - 01: Open homepage");
         driver = await openBrowser.openHomePage();
+        await driver.sleep(2000);
         registerPage.constructorDriver(driver);
         homePage.constructorDriver(driver);
     });
 
     this.beforeEach("Click to Register Link", async function(){
-        log.info("Login: Navigate to Register page");
+        log.info("Register: Navigate to Register page");
         homePage.clickToRegisterLink();
         await driver.sleep(2000);
     });
@@ -30,16 +31,16 @@ describe("Register", function(){
         log.info("Register - Step 02: Verify username empty message.");
         await registerPage.verifyEmptyUsernameMessage(registerData.emptyMessage.username);
 
-        log.info("Register - Step 02: Verify password empty message.");
+        log.info("Register - Step 03: Verify password empty message.");
         await registerPage.verifyEmptyPasswordMessage(registerData.emptyMessage.password);
 
-        log.info("Register - Step 02: Verify confirm password empty message.");
+        log.info("Register - Step 04: Verify confirm password empty message.");
         await registerPage.verifyEmptyConfPasswordMessage(registerData.emptyMessage.confirmPassword);
 
-        log.info("Register - Step 02: Verify fullname empty message.");
+        log.info("Register - Step 05: Verify fullname empty message.");
         await registerPage.verifyEmptyFullNameMessage(registerData.emptyMessage.fullName);
 
-        log.info("Register - Step 02: Verify email empty message.");
+        log.info("Register - Step 06: Verify email empty message.");
         await registerPage.verifyEmptyEmailMessage(registerData.emptyMessage.email);
     });
 
@@ -53,7 +54,7 @@ describe("Register", function(){
         await driver.sleep(1000);
 
         log.info("Register - Step 03: Verify password error message");
-        await registerPage.verifyInvalidPasswordMessage(registerData.invalidMessage.password)
+        await registerPage.verifyInvalidPasswordMessage(registerData.invalidMessage.password);
     });
 
     it("TC03 Register with confirm password different password", async function(){
@@ -114,7 +115,11 @@ describe("Register", function(){
     });
 
     this.afterEach(function(){
+        if(this.currentTest.state == 'passed'){
+            log.info("-------------------PASSED-----------------");
+        }
         if(this.currentTest.state == 'failed'){
+            log.info("-------------------PASSED-----------------");
             let imageFileName = this.currentTest.title + '.jpeg';
             driver.takeScreenshot().then(
                 function(image){

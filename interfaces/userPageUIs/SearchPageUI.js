@@ -3,7 +3,8 @@ const NOT_EXISTING_ITEM_MESSAGE = "//div[contains(text(),'Không có sản phẩ
 const RESULT_OF_HAND_BACK_MESSAGE = "//li[contains(text(), 'Có 18 mặt hàng được tìm thấy')]";
 const LIST_HAND_BACK_IN_PAGE1 = "//form[@action='/checkout/add']//a[contains(text(),'Túi Xách')]";
 const RESULT_ABSOLUTE_ITEM_MESSAGE = "//li[contains(text(),'Có 1 mặt hàng được tìm thấy')]";
-const BALO_ITEM = "//form//a[text()='Túi Xách Targus TBT268AP-72 M Black']";
+//Túi Xách Targus TBT268AP-72 M Black
+const BALO_ITEM = "//form//a[text()='%s']";
 
 class SearchPageUI{
     get backToHomePageLink(){

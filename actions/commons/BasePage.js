@@ -1,4 +1,5 @@
-const {By} = require("selenium-webdriver");
+const {By, until} = require("selenium-webdriver");
+const LONG_TIMEOUT = 30000;
 class PageBase{
 
     openPageUrl(driver, pageUrl) {
@@ -10,32 +11,26 @@ class PageBase{
 	}
 
     waitForAlertPresence( driver) {
-		let explicitWait = new WebDriverWait(driver, 30);
-		return explicitWait.until(ExpectedConditions.alertIsPresent());
+		return driver.wait(until.alertIsPresent(), LONG_TIMEOUT);
 	}
 
-    // switchToAlert(driver){
-    //     driver.switchTo().alert();
-    // }
-
     acceptAlert(driver) {
-        let alert = driver.switchTo().alert();
+        let alert = this.waitForAlertPresence(driver);
 		alert.accept();
 	}
 
     cancelAlert(driver){
-        let alert = driver.switchTo().alert();
+        let alert = this.waitForAlertPresence(driver);
         alert.dismiss();
     }
 
     getAlertText(driver) {
-        let alert = driver.switchTo().alert();
+        let alert = this.waitForAlertPresence(driver);
 		return alert.getText();
 	}
 
     senkeyAlert(driver, textValue) {
-		//Alert alert = waitForAlertPresence(driver);
-        let alert = driver.switchTo().alert();
+        let alert = this.waitForAlertPresence(driver);
 		alert.sendKeys(textValue);
 	}
 
@@ -114,11 +109,26 @@ class PageBase{
 		driver.executeScript("arguments[0].scrollIntoView(true);", xpathLocator);
 	}
 
+	waitForElementClickable(driver, xpathLocator){
+		driver.wait(until.elementLocated(this.getByXpath(xpathLocator)), LONG_TIMEOUT);
+	}
+
+	waitForElementVisible(driver, xpathLocator){
+		let element = this.getWebElement(driver, xpathLocator);
+		driver.wait(until.elementIsVisible(element), LONG_TIMEOUT);
+	}
+
 	getCurrentDate(){
 		var today = new Date();
 		return today.getDate() + '/' + (today.getMonth() + 1) + '/' + (today.getYear() + 1900);
 	}
 
+	getDynamicLocator(str, ...arr) {
+		for(let i=0;i<arr.length;i++) {
+			str = str.replace('%s',arr[i]);
+		}
+		return str;
+	}
 }
 
 module.exports = PageBase;

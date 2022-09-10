@@ -92,7 +92,11 @@ describe("Brand in admin", async function(){
     });
     
     this.afterEach(function(){
+        if(this.currentTest.state == 'passed'){
+            log.info("-------------------PASSED-----------------");
+        }
         if(this.currentTest.state == 'failed'){
+            log.info("-------------------FAILED-----------------");
             let imageFileName = this.currentTest.title + '.jpeg';
             driver.takeScreenshot().then(
                 function(image){

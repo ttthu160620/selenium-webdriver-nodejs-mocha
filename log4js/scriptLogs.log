@@ -380,3 +380,925 @@
 [2022-08-23T02:23:13.884] [INFO] default - Profile - Step 11: Enter to Username textbox with valid value is '123456'
 [2022-08-23T02:23:14.899] [INFO] default - Profile - Step 12: Click to 'Submit' button
 [2022-08-23T02:23:15.916] [INFO] default - Profile - Step 13: Verify account's fullname is correct.
+[2022-08-24T01:23:45.252] [INFO] default - Pre-Condition: Open homepage
+[2022-08-24T01:23:49.252] [INFO] default - Search-01 Search with empty data
+[2022-08-24T01:23:49.255] [INFO] default - Search - Step 01: Enter to Search textbox with empty data.
+[2022-08-24T01:23:49.261] [INFO] default - Search - Step 02: Click to 'Search' button.
+[2022-08-24T01:23:50.271] [INFO] default - Search - Step 03: Navigate to Home page
+[2022-08-24T01:27:12.003] [INFO] default - Pre-Condition: Open homepage
+[2022-08-24T01:27:15.807] [INFO] default - Search-01 Search with empty data
+[2022-08-24T01:27:15.809] [INFO] default - Search - Step 01: Enter to Search textbox with empty data.
+[2022-08-24T01:27:15.813] [INFO] default - Search - Step 02: Click to 'Search' button.
+[2022-08-24T01:27:16.828] [INFO] default - Search - Step 03: Navigate to Home page
+[2022-08-24T01:27:17.839] [INFO] default - Search-02 Search with data is not existing
+[2022-08-24T01:27:17.841] [INFO] default - Search - Step 01: Enter to Search textbox with value is 'aaaaaaaaaaaaaa'
+[2022-08-24T01:27:17.844] [INFO] default - Search - Step 02: Click to 'Search' button.
+[2022-08-24T01:27:18.853] [INFO] default - Search - Step 03: Verify 'aaaaaaaaaaaaaa' is not displayed.
+[2022-08-24T01:27:49.910] [INFO] default - Search-03 Search with ralative data
+[2022-08-24T01:27:49.913] [INFO] default - Search - Step 01: Enter to Search textbox with value is 'túi xách'
+[2022-08-24T01:27:49.916] [INFO] default - Search - Step 02: Click to 'Search' button.
+[2022-08-24T01:27:50.918] [INFO] default - Search - Step 03: Verify result message is displayed.
+[2022-08-24T01:27:51.965] [INFO] default - Search-04 Search with absolutely item
+[2022-08-24T01:27:51.966] [INFO] default - Search - Step 01: Enter to Search textbox with value is 'Túi Xách Targus TBT268AP-72 M Black'
+[2022-08-24T01:27:51.966] [INFO] default - Search - Step 02: Click to 'Search' button.
+[2022-08-24T01:27:52.974] [INFO] default - Search - Step 03: Verify result message is displayed.
+[2022-08-24T01:27:53.023] [INFO] default - Search - Step 04: Verify 1 item is displayed.
+[2022-08-24T01:27:53.043] [INFO] default - Close the browser.
+[2022-08-29T00:53:56.027] [INFO] default - Pre-Condition: Open homepage
+[2022-08-29T00:53:59.997] [INFO] default - Search-01 Search with empty data
+[2022-08-29T00:53:59.999] [INFO] default - Search - Step 01: Enter to Search textbox with empty data.
+[2022-08-29T00:54:00.003] [INFO] default - Search - Step 02: Click to 'Search' button.
+[2022-08-29T00:54:01.010] [INFO] default - Search - Step 03: Navigate to Home page
+[2022-08-29T00:54:01.013] [INFO] default - -------------------PASSED-----------------
+[2022-08-29T00:54:02.018] [INFO] default - Search-02 Search with data is not existing
+[2022-08-29T00:54:02.018] [INFO] default - Search - Step 01: Enter to Search textbox with value is 'aaaaaaaaaaaaaa'
+[2022-08-29T00:54:02.020] [INFO] default - Search - Step 02: Click to 'Search' button.
+[2022-08-29T00:54:03.031] [INFO] default - Search - Step 03: Verify 'aaaaaaaaaaaaaa' is not displayed.
+[2022-08-29T00:54:33.107] [INFO] default - -------------------FAILED-----------------
+[2022-08-29T00:54:34.122] [INFO] default - Search-03 Search with ralative data
+[2022-08-29T00:54:34.123] [INFO] default - Search - Step 01: Enter to Search textbox with value is 'túi xách'
+[2022-08-29T00:54:34.123] [INFO] default - Search - Step 02: Click to 'Search' button.
+[2022-08-29T00:54:35.132] [INFO] default - Search - Step 03: Verify result message is displayed.
+[2022-08-29T00:54:35.211] [INFO] default - -------------------PASSED-----------------
+[2022-08-29T00:54:36.218] [INFO] default - Search-04 Search wth absolutely item
+[2022-08-29T00:54:36.219] [INFO] default - Search - Step 01: Enter to Search textbox with value is 'Túi Xách Targus TBT268AP-72 M Black'
+[2022-08-29T00:54:36.220] [INFO] default - Search - Step 02: Click to 'Search' button.
+[2022-08-29T00:54:37.224] [INFO] default - Search - Step 03: Verify result message is displayed.
+[2022-08-29T00:54:37.276] [INFO] default - Search - Step 04: Verify 1 item is displayed.
+[2022-08-29T00:54:37.308] [INFO] default - -------------------PASSED-----------------
+[2022-08-29T00:54:37.309] [INFO] default - Close the browser.
+[2022-08-30T00:34:54.987] [INFO] default - Pre-Condition: Open homepage
+[2022-08-30T00:34:55.867] [INFO] default - Close the browser.
+[2022-08-30T00:35:28.153] [INFO] default - Pre-Condition: Open homepage
+[2022-08-30T00:35:28.951] [INFO] default - Close the browser.
+[2022-08-30T00:36:53.546] [INFO] default - Pre-Condition: Open homepage
+[2022-08-30T00:36:55.321] [INFO] default - Search-01 Search with empty data
+[2022-08-30T00:36:55.323] [INFO] default - Search - Step 01: Enter to Search textbox with empty data.
+[2022-08-30T00:36:55.326] [INFO] default - Search - Step 02: Click to 'Search' button.
+[2022-08-30T00:36:55.329] [INFO] default - Search - Step 03: Navigate to Home page
+[2022-08-30T00:36:55.341] [INFO] default - -------------------PASSED-----------------
+[2022-08-30T00:36:56.349] [INFO] default - Search-02 Search with data is not existing
+[2022-08-30T00:36:56.354] [INFO] default - Search - Step 01: Enter to Search textbox with value is 'aaaaaaaaaaaaaa'
+[2022-08-30T00:36:56.355] [INFO] default - Search - Step 02: Click to 'Search' button.
+[2022-08-30T00:36:56.357] [INFO] default - Search - Step 03: Verify 'aaaaaaaaaaaaaa' is not displayed.
+[2022-08-30T00:38:12.894] [INFO] default - Pre-Condition: Open homepage
+[2022-08-30T00:38:14.703] [INFO] default - Search-01 Search with empty data
+[2022-08-30T00:38:14.705] [INFO] default - Search - Step 01: Enter to Search textbox with empty data.
+[2022-08-30T00:38:14.709] [INFO] default - Search - Step 02: Click to 'Search' button.
+[2022-08-30T00:38:14.711] [INFO] default - Search - Step 03: Navigate to Home page
+[2022-08-30T00:38:14.719] [INFO] default - -------------------PASSED-----------------
+[2022-08-30T00:38:15.734] [INFO] default - Search-02 Search with data is not existing
+[2022-08-30T00:38:15.735] [INFO] default - Search - Step 01: Enter to Search textbox with value is 'aaaaaaaaaaaaaa'
+[2022-08-30T00:38:15.736] [INFO] default - Search - Step 02: Click to 'Search' button.
+[2022-08-30T00:38:15.736] [INFO] default - Search - Step 03: Verify 'aaaaaaaaaaaaaa' is not displayed.
+[2022-08-30T00:38:29.788] [INFO] default - Pre-Condition: Open homepage
+[2022-08-30T00:38:33.611] [INFO] default - Search-01 Search with empty data
+[2022-08-30T00:38:33.613] [INFO] default - Search - Step 01: Enter to Search textbox with empty data.
+[2022-08-30T00:38:33.616] [INFO] default - Search - Step 02: Click to 'Search' button.
+[2022-08-30T00:38:33.618] [INFO] default - Search - Step 03: Navigate to Home page
+[2022-08-30T00:38:33.635] [INFO] default - -------------------PASSED-----------------
+[2022-08-30T00:38:34.643] [INFO] default - Search-02 Search with data is not existing
+[2022-08-30T00:38:34.644] [INFO] default - Search - Step 01: Enter to Search textbox with value is 'aaaaaaaaaaaaaa'
+[2022-08-30T00:38:34.645] [INFO] default - Search - Step 02: Click to 'Search' button.
+[2022-08-30T00:38:34.646] [INFO] default - Search - Step 03: Verify 'aaaaaaaaaaaaaa' is not displayed.
+[2022-08-30T00:39:13.276] [INFO] default - -------------------FAILED-----------------
+[2022-08-30T00:39:14.289] [INFO] default - Search-03 Search with ralative data
+[2022-08-30T00:39:14.290] [INFO] default - Search - Step 01: Enter to Search textbox with value is 'túi xách'
+[2022-08-30T00:39:14.291] [INFO] default - Search - Step 02: Click to 'Search' button.
+[2022-08-30T00:39:14.292] [INFO] default - Search - Step 03: Verify result message is displayed.
+[2022-08-30T00:39:14.298] [INFO] default - -------------------FAILED-----------------
+[2022-08-30T00:39:15.313] [INFO] default - Search-04 Search with absolutely item
+[2022-08-30T00:39:15.313] [INFO] default - Search - Step 01: Enter to Search textbox with value is 'Túi Xách Targus TBT268AP-72 M Black'
+[2022-08-30T00:39:15.314] [INFO] default - Search - Step 02: Click to 'Search' button.
+[2022-08-30T00:39:15.315] [INFO] default - Search - Step 03: Verify result message is displayed.
+[2022-08-30T00:39:15.322] [INFO] default - -------------------FAILED-----------------
+[2022-08-30T00:39:15.324] [INFO] default - Close the browser.
+[2022-08-30T00:43:12.487] [INFO] default - Pre-Condition: Open homepage
+[2022-08-30T00:43:16.320] [INFO] default - Search-01 Search with empty data
+[2022-08-30T00:43:16.323] [INFO] default - Search - Step 01: Enter to Search textbox with empty data.
+[2022-08-30T00:43:16.354] [INFO] default - Search - Step 02: Click to 'Search' button.
+[2022-08-30T00:43:16.373] [INFO] default - Search - Step 03: Navigate to Home page
+[2022-08-30T00:43:46.458] [INFO] default - -------------------FAILED-----------------
+[2022-08-30T00:43:47.821] [INFO] default - Search-02 Search with data is not existing
+[2022-08-30T00:43:47.822] [INFO] default - Search - Step 01: Enter to Search textbox with value is 'aaaaaaaaaaaaaa'
+[2022-08-30T00:43:47.855] [INFO] default - Search - Step 02: Click to 'Search' button.
+[2022-08-30T00:43:47.878] [INFO] default - Search - Step 03: Verify 'aaaaaaaaaaaaaa' is not displayed.
+[2022-08-30T00:44:09.975] [INFO] default - Pre-Condition: Open homepage
+[2022-08-30T00:44:13.813] [INFO] default - Search-01 Search with empty data
+[2022-08-30T00:44:13.816] [INFO] default - Search - Step 01: Enter to Search textbox with empty data.
+[2022-08-30T00:44:13.846] [INFO] default - Search - Step 02: Click to 'Search' button.
+[2022-08-30T00:44:13.863] [INFO] default - Search - Step 03: Navigate to Home page
+[2022-08-30T00:44:43.944] [INFO] default - -------------------FAILED-----------------
+[2022-08-30T00:44:45.344] [INFO] default - Search-02 Search with data is not existing
+[2022-08-30T00:44:45.346] [INFO] default - Search - Step 01: Enter to Search textbox with value is 'aaaaaaaaaaaaaa'
+[2022-08-30T00:44:45.387] [INFO] default - Search - Step 02: Click to 'Search' button.
+[2022-08-30T00:44:45.416] [INFO] default - Search - Step 03: Verify 'aaaaaaaaaaaaaa' is not displayed.
+[2022-08-30T00:45:15.578] [INFO] default - -------------------FAILED-----------------
+[2022-08-30T00:45:16.969] [INFO] default - Search-03 Search with ralative data
+[2022-08-30T00:45:16.970] [INFO] default - Search - Step 01: Enter to Search textbox with value is 'túi xách'
+[2022-08-30T00:45:17.016] [INFO] default - Search - Step 02: Click to 'Search' button.
+[2022-08-30T00:45:17.034] [INFO] default - Search - Step 03: Verify result message is displayed.
+[2022-08-30T00:45:47.158] [INFO] default - -------------------FAILED-----------------
+[2022-08-30T00:45:48.611] [INFO] default - Search-04 Search with absolutely item
+[2022-08-30T00:45:48.613] [INFO] default - Search - Step 01: Enter to Search textbox with value is 'Túi Xách Targus TBT268AP-72 M Black'
+[2022-08-30T00:45:48.683] [INFO] default - Search - Step 02: Click to 'Search' button.
+[2022-08-30T00:45:48.713] [INFO] default - Search - Step 03: Verify result message is displayed.
+[2022-08-30T00:46:19.000] [INFO] default - -------------------FAILED-----------------
+[2022-08-30T00:46:19.002] [INFO] default - Close the browser.
+[2022-08-30T00:52:25.056] [INFO] default - Pre-Condition: Open homepage
+[2022-08-30T00:52:25.062] [INFO] default - Close the browser.
+[2022-08-30T00:53:12.922] [INFO] default - Pre-Condition: Open homepage
+[2022-08-30T00:53:12.930] [INFO] default - Close the browser.
+[2022-08-30T01:07:08.898] [INFO] default - Pre-Condition: Open homepage
+[2022-08-30T01:07:08.905] [INFO] default - Close the browser.
+[2022-08-30T01:07:40.607] [INFO] default - Pre-Condition: Open homepage
+[2022-08-30T01:07:40.613] [INFO] default - Close the browser.
+[2022-08-30T01:07:58.905] [INFO] default - Pre-Condition: Open homepage
+[2022-08-30T01:07:58.912] [INFO] default - Close the browser.
+[2022-08-30T01:08:54.732] [INFO] default - Pre-Condition: Open homepage
+[2022-08-30T01:08:57.538] [INFO] default - Search-01 Search with empty data
+[2022-08-30T01:08:57.539] [INFO] default - Search - Step 01: Enter to Search textbox with empty data.
+[2022-08-30T01:08:57.540] [INFO] default - Search - Step 02: Click to 'Search' button.
+[2022-08-30T01:08:57.540] [INFO] default - Search - Step 03: Navigate to Home page
+[2022-08-30T01:08:57.544] [INFO] default - -------------------PASSED-----------------
+[2022-08-30T01:08:57.546] [INFO] default - Search-02 Search with data is not existing
+[2022-08-30T01:08:57.547] [INFO] default - Search - Step 01: Enter to Search textbox with value is 'aaaaaaaaaaaaaa'
+[2022-08-30T01:08:57.547] [INFO] default - Search - Step 02: Click to 'Search' button.
+[2022-08-30T01:08:57.548] [INFO] default - Search - Step 03: Verify 'aaaaaaaaaaaaaa' is not displayed.
+[2022-08-30T01:09:31.021] [INFO] default - Pre-Condition: Open homepage
+[2022-08-30T01:09:33.833] [INFO] default - Search-01 Search with empty data
+[2022-08-30T01:09:33.833] [INFO] default - Search - Step 01: Enter to Search textbox with empty data.
+[2022-08-30T01:09:33.834] [INFO] default - Search - Step 02: Click to 'Search' button.
+[2022-08-30T01:09:33.836] [INFO] default - Search - Step 03: Navigate to Home page
+[2022-08-30T01:09:33.840] [INFO] default - -------------------PASSED-----------------
+[2022-08-30T01:09:33.843] [INFO] default - Search-02 Search with data is not existing
+[2022-08-30T01:09:33.844] [INFO] default - Search - Step 01: Enter to Search textbox with value is 'aaaaaaaaaaaaaa'
+[2022-08-30T01:09:33.845] [INFO] default - Search - Step 02: Click to 'Search' button.
+[2022-08-30T01:09:33.846] [INFO] default - Search - Step 03: Verify 'aaaaaaaaaaaaaa' is not displayed.
+[2022-08-30T01:10:33.988] [INFO] default - -------------------FAILED-----------------
+[2022-08-30T01:10:33.990] [INFO] default - Search-03 Search with ralative data
+[2022-08-30T01:10:33.991] [INFO] default - Search - Step 01: Enter to Search textbox with value is 'túi xách'
+[2022-08-30T01:10:33.991] [INFO] default - Search - Step 02: Click to 'Search' button.
+[2022-08-30T01:10:33.992] [INFO] default - Search - Step 03: Verify result message is displayed.
+[2022-08-30T01:11:04.866] [INFO] default - -------------------FAILED-----------------
+[2022-08-30T01:11:04.872] [INFO] default - Search-04 Search with absolutely item
+[2022-08-30T01:11:04.874] [INFO] default - Search - Step 01: Enter to Search textbox with value is 'Túi Xách Targus TBT268AP-72 M Black'
+[2022-08-30T01:11:04.876] [INFO] default - Search - Step 02: Click to 'Search' button.
+[2022-08-30T01:11:04.878] [INFO] default - Search - Step 03: Verify result message is displayed.
+[2022-08-30T01:11:35.366] [INFO] default - -------------------FAILED-----------------
+[2022-08-30T01:11:35.367] [INFO] default - Close the browser.
+[2022-08-30T01:12:17.377] [INFO] default - Pre-Condition: Open homepage
+[2022-08-30T01:12:21.147] [INFO] default - Search-01 Search with empty data
+[2022-08-30T01:12:21.149] [INFO] default - Search - Step 01: Enter to Search textbox with empty data.
+[2022-08-30T01:12:21.153] [INFO] default - Search - Step 02: Click to 'Search' button.
+[2022-08-30T01:12:22.170] [INFO] default - Search - Step 03: Navigate to Home page
+[2022-08-30T01:12:22.174] [INFO] default - -------------------PASSED-----------------
+[2022-08-30T01:12:23.185] [INFO] default - Search-02 Search with data is not existing
+[2022-08-30T01:12:23.187] [INFO] default - Search - Step 01: Enter to Search textbox with value is 'aaaaaaaaaaaaaa'
+[2022-08-30T01:12:23.189] [INFO] default - Search - Step 02: Click to 'Search' button.
+[2022-08-30T01:12:24.194] [INFO] default - Search - Step 03: Verify 'aaaaaaaaaaaaaa' is not displayed.
+[2022-08-30T01:12:24.229] [INFO] default - -------------------PASSED-----------------
+[2022-08-30T01:12:25.231] [INFO] default - Search-03 Search with ralative data
+[2022-08-30T01:12:25.232] [INFO] default - Search - Step 01: Enter to Search textbox with value is 'túi xách'
+[2022-08-30T01:12:25.232] [INFO] default - Search - Step 02: Click to 'Search' button.
+[2022-08-30T01:12:26.247] [INFO] default - Search - Step 03: Verify result message is displayed.
+[2022-08-30T01:12:26.301] [INFO] default - -------------------PASSED-----------------
+[2022-08-30T01:12:27.310] [INFO] default - Search-04 Search with absolutely item
+[2022-08-30T01:12:27.311] [INFO] default - Search - Step 01: Enter to Search textbox with value is 'Túi Xách Targus TBT268AP-72 M Black'
+[2022-08-30T01:12:27.314] [INFO] default - Search - Step 02: Click to 'Search' button.
+[2022-08-30T01:12:28.317] [INFO] default - Search - Step 03: Verify result message is displayed.
+[2022-08-30T01:12:28.343] [INFO] default - Search - Step 04: Verify 1 item is displayed.
+[2022-08-30T01:12:28.364] [INFO] default - -------------------PASSED-----------------
+[2022-08-30T01:12:28.365] [INFO] default - Close the browser.
+[2022-08-30T01:15:18.985] [INFO] default - Pre-Condition: Open homepage
+[2022-08-30T01:15:22.780] [INFO] default - Search-01 Search with empty data
+[2022-08-30T01:15:22.780] [INFO] default - Search - Step 01: Enter to Search textbox with empty data.
+[2022-08-30T01:15:22.782] [INFO] default - Search - Step 02: Click to 'Search' button.
+[2022-08-30T01:15:22.783] [INFO] default - Search - Step 03: Navigate to Home page
+[2022-08-30T01:15:22.789] [INFO] default - -------------------PASSED-----------------
+[2022-08-30T01:15:23.794] [INFO] default - Search-02 Search with data is not existing
+[2022-08-30T01:15:23.795] [INFO] default - Search - Step 01: Enter to Search textbox with value is 'aaaaaaaaaaaaaa'
+[2022-08-30T01:15:23.796] [INFO] default - Search - Step 02: Click to 'Search' button.
+[2022-08-30T01:15:24.798] [INFO] default - Search - Step 03: Verify 'aaaaaaaaaaaaaa' is not displayed.
+[2022-08-30T01:15:46.916] [INFO] default - -------------------FAILED-----------------
+[2022-08-30T01:15:47.931] [INFO] default - Search-03 Search with ralative data
+[2022-08-30T01:15:47.931] [INFO] default - Search - Step 01: Enter to Search textbox with value is 'túi xách'
+[2022-08-30T01:15:47.932] [INFO] default - Search - Step 02: Click to 'Search' button.
+[2022-08-30T01:15:48.935] [INFO] default - Search - Step 03: Verify result message is displayed.
+[2022-08-30T01:15:48.938] [INFO] default - -------------------FAILED-----------------
+[2022-08-30T01:15:49.953] [INFO] default - Search-04 Search with absolutely item
+[2022-08-30T01:15:49.954] [INFO] default - Search - Step 01: Enter to Search textbox with value is 'Túi Xách Targus TBT268AP-72 M Black'
+[2022-08-30T01:15:49.954] [INFO] default - Search - Step 02: Click to 'Search' button.
+[2022-08-30T01:15:50.967] [INFO] default - Search - Step 03: Verify result message is displayed.
+[2022-08-30T01:15:50.971] [INFO] default - -------------------FAILED-----------------
+[2022-08-30T01:15:50.972] [INFO] default - Close the browser.
+[2022-08-30T01:16:30.578] [INFO] default - Pre-Condition: Open homepage
+[2022-08-30T01:16:34.361] [INFO] default - Search-01 Search with empty data
+[2022-08-30T01:16:34.363] [INFO] default - Search - Step 01: Enter to Search textbox with empty data.
+[2022-08-30T01:16:34.366] [INFO] default - Search - Step 02: Click to 'Search' button.
+[2022-08-30T01:16:35.370] [INFO] default - Search - Step 03: Navigate to Home page
+[2022-08-30T01:16:35.376] [INFO] default - -------------------PASSED-----------------
+[2022-08-30T01:16:36.386] [INFO] default - Search-02 Search with data is not existing
+[2022-08-30T01:16:36.388] [INFO] default - Search - Step 01: Enter to Search textbox with value is 'aaaaaaaaaaaaaa'
+[2022-08-30T01:16:36.390] [INFO] default - Search - Step 02: Click to 'Search' button.
+[2022-08-30T01:16:37.397] [INFO] default - Search - Step 03: Verify 'aaaaaaaaaaaaaa' is not displayed.
+[2022-08-30T01:16:37.427] [INFO] default - -------------------PASSED-----------------
+[2022-08-30T01:16:38.433] [INFO] default - Search-03 Search with ralative data
+[2022-08-30T01:16:38.435] [INFO] default - Search - Step 01: Enter to Search textbox with value is 'túi xách'
+[2022-08-30T01:16:38.437] [INFO] default - Search - Step 02: Click to 'Search' button.
+[2022-08-30T01:16:39.442] [INFO] default - Search - Step 03: Verify result message is displayed.
+[2022-08-30T01:16:39.519] [INFO] default - -------------------PASSED-----------------
+[2022-08-30T01:16:40.534] [INFO] default - Search-04 Search with absolutely item
+[2022-08-30T01:16:40.536] [INFO] default - Search - Step 01: Enter to Search textbox with value is 'Túi Xách Targus TBT268AP-72 M Black'
+[2022-08-30T01:16:40.537] [INFO] default - Search - Step 02: Click to 'Search' button.
+[2022-08-30T01:16:41.552] [INFO] default - Search - Step 03: Verify result message is displayed.
+[2022-08-30T01:16:41.605] [INFO] default - Search - Step 04: Verify 1 item is displayed.
+[2022-08-30T01:16:41.627] [INFO] default - -------------------PASSED-----------------
+[2022-08-30T01:16:41.628] [INFO] default - Close the browser.
+[2022-09-01T21:14:32.906] [INFO] default - Pre-Condition - 01: Open homepage
+[2022-09-01T21:14:32.921] [INFO] default - Pre-Condition - 01: Open homepage
+[2022-09-01T21:14:32.919] [INFO] default - Pre-Condition - 01: Open homepage
+[2022-09-01T21:14:32.933] [INFO] default - Pre-Condition - 01: Open homepage
+[2022-09-01T21:14:32.929] [INFO] default - Pre-Condition: Open homepage
+[2022-09-01T21:14:36.921] [INFO] default - Pre-Condition - 02: Register successfully.
+[2022-09-01T21:14:36.924] [INFO] default - Register: Navigate to Register page
+[2022-09-01T21:14:36.976] [INFO] default - Pre-Condition - 02: Login successfully
+[2022-09-01T21:14:37.046] [INFO] default - Pre-Condition - 02: Login successfully.
+[2022-09-01T21:14:38.086] [INFO] default - Search-01 Search with empty data
+[2022-09-01T21:14:38.088] [INFO] default - Search - Step 01: Enter to Search textbox with empty data.
+[2022-09-01T21:14:38.091] [INFO] default - Search - Step 02: Click to 'Search' button.
+[2022-09-01T21:14:38.934] [INFO] default - TC01 Register with empty value
+[2022-09-01T21:14:38.936] [INFO] default - Register - Step 01: Click to 'Register' button
+[2022-09-01T21:14:39.100] [INFO] default - Search - Step 03: Navigate to Home page
+[2022-09-01T21:14:39.103] [INFO] default - -------------------PASSED-----------------
+[2022-09-01T21:14:39.942] [INFO] default - Register - Step 02: Verify username empty message.
+[2022-09-01T21:14:39.973] [INFO] default - Register - Step 03: Verify password empty message.
+[2022-09-01T21:14:39.975] [INFO] default - TC1 Login with empty username
+[2022-09-01T21:14:39.975] [INFO] default - Login - Step 01: Navigate to Login page
+[2022-09-01T21:14:39.999] [INFO] default - Register - Step 04: Verify confirm password empty message.
+[2022-09-01T21:14:40.036] [INFO] default - Register - Step 05: Verify fullname empty message.
+[2022-09-01T21:14:40.080] [INFO] default - Register - Step 06: Verify email empty message.
+[2022-09-01T21:14:40.111] [INFO] default - -------------------PASSED-----------------
+[2022-09-01T21:14:40.113] [INFO] default - Register: Navigate to Register page
+[2022-09-01T21:14:40.114] [INFO] default - Search-02 Search with data is not existing
+[2022-09-01T21:14:40.117] [INFO] default - Search - Step 01: Enter to Search textbox with value is 'aaaaaaaaaaaaaa'
+[2022-09-01T21:14:40.124] [INFO] default - Search - Step 02: Click to 'Search' button.
+[2022-09-01T21:14:41.139] [INFO] default - Search - Step 03: Verify 'aaaaaaaaaaaaaa' is not displayed.
+[2022-09-01T21:14:41.218] [INFO] default - -------------------PASSED-----------------
+[2022-09-01T21:14:41.986] [INFO] default - Login - Step 02: Click to 'Submit' button
+[2022-09-01T21:14:42.053] [INFO] default - TC01 Order unsuccessfully if cart does not have item
+[2022-09-01T21:14:42.053] [INFO] default - Order - Step 01: Navigate to Cart page
+[2022-09-01T21:14:42.137] [INFO] default - TC02 Register with password have less than 6 characters
+[2022-09-01T21:14:42.139] [INFO] default - Register - Step 01: Enter to Password textbox with value have less than 6 characters is '12345'
+[2022-09-01T21:14:42.141] [INFO] default - Register - Step 02: Click to 'Register' button
+[2022-09-01T21:14:42.185] [INFO] default - Navigate to Profile page
+[2022-09-01T21:14:42.235] [INFO] default - Search-03 Search with ralative data
+[2022-09-01T21:14:42.238] [INFO] default - Search - Step 01: Enter to Search textbox with value is 'túi xách'
+[2022-09-01T21:14:42.239] [INFO] default - Search - Step 02: Click to 'Search' button.
+[2022-09-01T21:14:42.987] [INFO] default - Login - Step 03: Verify error message in alert.
+[2022-09-01T21:14:42.989] [INFO] default - Login - Step 04: Click to 'OK' button in alert
+[2022-09-01T21:14:42.993] [INFO] default - -------------------PASSED-----------------
+[2022-09-01T21:14:42.994] [INFO] default - TC02 Login with empty username
+[2022-09-01T21:14:42.995] [INFO] default - Login - Step 01: Navigate to Login page
+[2022-09-01T21:14:43.056] [INFO] default - Order - Step 02: Click to 'Order' button
+[2022-09-01T21:14:43.162] [INFO] default - Register - Step 03: Verify password error message
+[2022-09-01T21:14:43.190] [INFO] default - -------------------PASSED-----------------
+[2022-09-01T21:14:43.191] [INFO] default - Register: Navigate to Register page
+[2022-09-01T21:14:43.253] [INFO] default - Search - Step 03: Verify result message is displayed.
+[2022-09-01T21:14:43.316] [INFO] default - -------------------PASSED-----------------
+[2022-09-01T21:14:44.061] [INFO] default - Order - Step 03: Verify error message in alert
+[2022-09-01T21:14:44.064] [INFO] default - Order - Step 04: Click to 'OK' button in alert.
+[2022-09-01T21:14:44.067] [INFO] default - -------------------PASSED-----------------
+[2022-09-01T21:14:44.069] [INFO] default - TC02 Choose any 1 item add to cart
+[2022-09-01T21:14:44.070] [INFO] default - Order - Step 01: Navigate Home page
+[2022-09-01T21:14:44.336] [INFO] default - Search-04 Search with absolutely item
+[2022-09-01T21:14:44.337] [INFO] default - Search - Step 01: Enter to Search textbox with value is 'Túi Xách Targus TBT268AP-72 M Black'
+[2022-09-01T21:14:44.338] [INFO] default - Search - Step 02: Click to 'Search' button.
+[2022-09-01T21:14:44.997] [INFO] default - Login - Step 02: Enter to Username textbox with value is 'abcd'
+[2022-09-01T21:14:45.082] [INFO] default - Order - Step 02: Enter to Search textbox with value is'Balo Targus TSB906-70 M Black'
+[2022-09-01T21:14:45.204] [INFO] default - TC03 Register with confirm password different password
+[2022-09-01T21:14:45.205] [INFO] default - Register - Step 01: Enter to Password textbox with valid value is '123456'
+[2022-09-01T21:14:45.205] [INFO] default - Register - Step 02: Enter to Confirm Password textbox with invalid value is '12345678'
+[2022-09-01T21:14:45.206] [INFO] default - Register - Step 03: Click to 'Register' button
+[2022-09-01T21:14:45.341] [INFO] default - Search - Step 03: Verify result message is displayed.
+[2022-09-01T21:14:45.387] [INFO] default - Search - Step 04: Verify 1 item is displayed.
+[2022-09-01T21:14:45.422] [INFO] default - -------------------PASSED-----------------
+[2022-09-01T21:14:45.424] [INFO] default - Close the browser.
+[2022-09-01T21:14:46.008] [INFO] default - Login - Step 03: Enter to Username textbox with value is empty data
+[2022-09-01T21:14:46.093] [INFO] default - Order - Step 03: Click to 'Search' button
+[2022-09-01T21:14:46.195] [INFO] default - TC01 Verify user's info when login successful
+[2022-09-01T21:14:46.198] [INFO] default - Profile - Step 01: Verify Username value is displayed.
+[2022-09-01T21:14:46.215] [INFO] default - Register - Step 04: Verify confirm passwor error message
+[2022-09-01T21:14:46.268] [INFO] default - Profile - Step 02: Verify Email value is displayed.
+[2022-09-01T21:14:46.279] [INFO] default - -------------------PASSED-----------------
+[2022-09-01T21:14:46.280] [INFO] default - Register: Navigate to Register page
+[2022-09-01T21:14:46.325] [INFO] default - Profile - Step 03: Verify Fullname value is displayed.
+[2022-09-01T21:14:46.364] [INFO] default - Profile - Step 04: Verify Birthday value is displayed.
+[2022-09-01T21:14:46.403] [INFO] default - -------------------PASSED-----------------
+[2022-09-01T21:14:46.405] [INFO] default - Navigate to Profile page
+[2022-09-01T21:14:47.010] [INFO] default - Login - Step 04: Click to 'Submit' button
+[2022-09-01T21:14:48.021] [INFO] default - Login - Step 05: Verify error message in alert.
+[2022-09-01T21:14:48.026] [INFO] default - Login - Step 06: Click to 'OK' button in alert
+[2022-09-01T21:14:48.032] [INFO] default - -------------------PASSED-----------------
+[2022-09-01T21:14:48.033] [INFO] default - TC3 Login with invalid username and password
+[2022-09-01T21:14:48.034] [INFO] default - Login - Step 01: Navigate to Login page
+[2022-09-01T21:14:48.106] [INFO] default - Order - Step 04: Click to Balo TSB855 link
+[2022-09-01T21:14:48.291] [INFO] default - TC04 Register with invalid email
+[2022-09-01T21:14:48.292] [INFO] default - Register - Step 01: Enter to Email textbox with invalid email is '123@123'
+[2022-09-01T21:14:48.293] [INFO] default - Register - Step 02: Click to 'Register' button
+[2022-09-01T21:14:49.116] [INFO] default - Order - Step 06: Click to 'Thêm vào giỏ hàng' button.
+[2022-09-01T21:14:49.298] [INFO] default - Register - Step 03: Verify email error message
+[2022-09-01T21:14:49.327] [INFO] default - -------------------PASSED-----------------
+[2022-09-01T21:14:49.328] [INFO] default - Register: Navigate to Register page
+[2022-09-01T21:14:50.422] [INFO] default - TC02 Change password have less than 6 characters
+[2022-09-01T21:14:50.422] [INFO] default - Profile - Step 01: Click to Change Pasword check box
+[2022-09-01T21:14:51.040] [INFO] default - Login - Step 02: Enter to Username textbox with invalid value is 'abcd'
+[2022-09-01T21:14:51.331] [INFO] default - TC05 Register successfully
+[2022-09-01T21:14:51.332] [INFO] default - Register - Step 01: Enter to Username with valid value is: 'thuuuu861'
+[2022-09-01T21:14:51.333] [INFO] default - Register - Step 02: Enter to Password with valid value is: '123456'
+[2022-09-01T21:14:51.333] [INFO] default - Register - Step 03: Enter to Confirm Password with valid value is: '123456'
+[2022-09-01T21:14:51.334] [INFO] default - Register - Step 04: Enter to Fullname with valid value is: 'Trần Thư'
+[2022-09-01T21:14:51.335] [INFO] default - Register - Step 05: Enter to Email with valid value is: 'thuu@gmail.com'
+[2022-09-01T21:14:51.335] [INFO] default - Register - Step 06: Enter to Birthday with valid value is: '1/2/2002'
+[2022-09-01T21:14:51.336] [INFO] default - Register - Step 07: Click to 'Regiister' button
+[2022-09-01T21:14:51.438] [INFO] default - Profile - Step 02: Verify Change Password checkbox is selected
+[2022-09-01T21:14:51.458] [INFO] default - Profile - Step 03: Enter to New Password textbox with value has less than 6 characters is '12345'
+[2022-09-01T21:14:51.459] [INFO] default - Profile - Step 04: Enter to New Confirm Password textbox with value has less than 6 characters is '12345'
+[2022-09-01T21:14:52.049] [INFO] default - Login - Step 03: Enter to Password textbox with invalid value is '123'
+[2022-09-01T21:14:52.343] [INFO] default - Register - Step 08: Verify successful register message is displayed.
+[2022-09-01T21:14:52.366] [INFO] default - -------------------PASSED-----------------
+[2022-09-01T21:14:52.465] [INFO] default - Profile - Step 05: Verify 'Update' button is disabled.
+[2022-09-01T21:14:52.492] [INFO] default - -------------------PASSED-----------------
+[2022-09-01T21:14:52.493] [INFO] default - Navigate to Profile page
+[2022-09-01T21:14:53.050] [INFO] default - Login - Step 04: Click to 'Submit' button
+[2022-09-01T21:14:54.110] [INFO] default - -------------------PASSED-----------------
+[2022-09-01T21:14:54.111] [INFO] default - TC04 Login successfully
+[2022-09-01T21:14:54.112] [INFO] default - Login - Step 01: Navigate to Login page
+[2022-09-01T21:14:56.116] [INFO] default - Login - Step 02: Enter to Username textbox with valid value is 'thuuuu778'
+[2022-09-01T21:14:56.514] [INFO] default - TC03 Change password have confirm password differrent with password
+[2022-09-01T21:14:56.515] [INFO] default - Profile - Step 01: Click to Change Pasword check box
+[2022-09-01T21:14:57.128] [INFO] default - Login - Step 03: Enter to Password textbox with invalid value is '123456'
+[2022-09-01T21:14:57.525] [INFO] default - Profile - Step 02: Verify Email value is displayed.
+[2022-09-01T21:14:57.551] [INFO] default - Profile - Step 03: Enter to New Password textbox with valid value is '123456'
+[2022-09-01T21:14:57.552] [INFO] default - Profile - Step 04: Enter to New Confirm Password textbox with value different password is '12345'
+[2022-09-01T21:14:58.136] [INFO] default - Login - Step 04: Click to 'Submit' button
+[2022-09-01T21:14:58.558] [INFO] default - Profile - Step 05: Verify 'Update' button is disabled.
+[2022-09-01T21:14:58.600] [INFO] default - -------------------PASSED-----------------
+[2022-09-01T21:14:58.601] [INFO] default - Navigate to Profile page
+[2022-09-01T21:14:59.151] [INFO] default - Login - Step 05: Verify account's fullname is correct.
+[2022-09-01T21:14:59.175] [INFO] default - -------------------PASSED-----------------
+[2022-09-01T21:15:02.615] [INFO] default - TC04 Change password successfully
+[2022-09-01T21:15:02.616] [INFO] default - Profile - Step 01: Click to Change Pasword check box
+[2022-09-01T21:15:03.624] [INFO] default - Profile - Step 02: Verify Email value is displayed.
+[2022-09-01T21:15:31.693] [INFO] default - -------------------FAILED-----------------
+[2022-09-01T21:16:18.234] [INFO] default - -------------------FAILED-----------------
+[2022-09-01T21:16:18.243] [INFO] default - TC03 Increase quantity in cart
+[2022-09-01T21:16:18.245] [INFO] default - Order - Step 01: Click to '+' icon
+[2022-09-01T21:16:19.256] [INFO] default - Order - Step 02: Click to '+' icon
+[2022-09-01T21:16:20.271] [INFO] default - Order - Step 03: Click to '+' icon
+[2022-09-01T21:16:21.286] [INFO] default - Order - Step 04: Verify total amount in cart
+[2022-09-01T21:16:50.271] [INFO] default - -------------------FAILED-----------------
+[2022-09-01T21:16:50.280] [INFO] default - TC04 Descrease quantity in cart
+[2022-09-01T21:16:50.281] [INFO] default - Order - Step 01: Click to '-' icon
+[2022-09-01T21:16:51.297] [INFO] default - Order - Step 02: Click to '-' icon
+[2022-09-01T21:16:52.303] [INFO] default - Order - Step 02: Verify total amount in cart
+[2022-09-01T21:16:52.309] [INFO] default - -------------------FAILED-----------------
+[2022-09-01T21:16:52.310] [INFO] default - TC05 Add other items to cart
+[2022-09-01T21:16:52.311] [INFO] default - Order - Step 01: Click to 'Mua thêm sản phẩm khác' link
+[2022-09-01T21:16:53.319] [INFO] default - Order - Step 02: Enter to Search textbox with value is'Túi Xách Simplecarry Gymbag S Black'
+[2022-09-01T21:16:54.333] [INFO] default - Order - Step 03: Click to 'Search' button
+[2022-09-01T21:16:56.333] [INFO] default - Order - Step 04: Click to item link
+[2022-09-01T21:16:57.350] [INFO] default - Order - Step 05: Click to 'Thêm vào giỏ hàng' button
+[2022-09-01T21:16:58.366] [INFO] default - -------------------PASSED-----------------
+[2022-09-01T21:16:59.382] [INFO] default - -------------------FAILED-----------------
+[2022-09-01T21:16:59.386] [INFO] default - TC07 Order unsuccessfully with empty address and phone number
+[2022-09-01T21:16:59.388] [INFO] default - Order - Step 01: Click to 'Tiến hành đặt hàng' button
+[2022-09-01T21:17:00.390] [INFO] default - Order - Step 02: Verify oder popup is displayed
+[2022-09-01T21:17:00.393] [INFO] default - -------------------FAILED-----------------
+[2022-09-01T21:17:00.395] [INFO] default - TC08 Order successfully with valid data
+[2022-09-01T21:17:00.395] [INFO] default - Order - Step 01: Click to 'Tiến hành đặt hàng' button
+[2022-09-01T21:17:01.396] [INFO] default - Order - Step 02: Verify oder popup is displayed
+[2022-09-01T21:17:01.400] [INFO] default - -------------------FAILED-----------------
+[2022-09-01T21:17:32.271] [INFO] default - Pre-Condition - 01: Open homepage
+[2022-09-01T21:17:34.876] [INFO] default - Pre-Condition - 02: Login successfully
+[2022-09-01T21:17:39.932] [INFO] default - TC01 Order unsuccessfully if cart does not have item
+[2022-09-01T21:17:39.932] [INFO] default - Order - Step 01: Navigate to Cart page
+[2022-09-01T21:17:40.937] [INFO] default - Order - Step 02: Click to 'Order' button
+[2022-09-01T21:17:41.941] [INFO] default - Order - Step 03: Verify error message in alert
+[2022-09-01T21:17:41.945] [INFO] default - Order - Step 04: Click to 'OK' button in alert.
+[2022-09-01T21:17:41.953] [INFO] default - -------------------PASSED-----------------
+[2022-09-01T21:17:41.955] [INFO] default - TC02 Choose any 1 item add to cart
+[2022-09-01T21:17:41.957] [INFO] default - Order - Step 01: Navigate Home page
+[2022-09-01T21:17:42.968] [INFO] default - Order - Step 02: Enter to Search textbox with value is'Balo Targus TSB906-70 M Black'
+[2022-09-01T21:17:43.981] [INFO] default - Order - Step 03: Click to 'Search' button
+[2022-09-01T21:17:45.989] [INFO] default - Order - Step 04: Click to Balo TSB855 link
+[2022-09-01T21:17:47.003] [INFO] default - Order - Step 06: Click to 'Thêm vào giỏ hàng' button.
+[2022-09-01T21:19:16.127] [INFO] default - -------------------FAILED-----------------
+[2022-09-01T21:19:16.132] [INFO] default - TC03 Increase quantity in cart
+[2022-09-01T21:19:16.133] [INFO] default - Order - Step 01: Click to '+' icon
+[2022-09-01T21:19:17.137] [INFO] default - Order - Step 02: Click to '+' icon
+[2022-09-01T21:19:18.147] [INFO] default - Order - Step 03: Click to '+' icon
+[2022-09-01T21:19:19.161] [INFO] default - Order - Step 04: Verify total amount in cart
+[2022-09-01T21:19:31.664] [INFO] default - Pre-Condition - 01: Open homepage
+[2022-09-01T21:19:34.326] [INFO] default - Pre-Condition - 02: Login successfully
+[2022-09-01T21:19:39.392] [INFO] default - TC01 Order unsuccessfully if cart does not have item
+[2022-09-01T21:19:39.393] [INFO] default - Order - Step 01: Navigate to Cart page
+[2022-09-01T21:19:40.403] [INFO] default - Order - Step 02: Click to 'Order' button
+[2022-09-01T21:19:41.417] [INFO] default - Order - Step 03: Verify error message in alert
+[2022-09-01T21:19:41.421] [INFO] default - Order - Step 04: Click to 'OK' button in alert.
+[2022-09-01T21:19:41.431] [INFO] default - -------------------PASSED-----------------
+[2022-09-01T21:19:41.435] [INFO] default - TC02 Choose any 1 item add to cart
+[2022-09-01T21:19:41.436] [INFO] default - Order - Step 01: Navigate Home page
+[2022-09-01T21:19:42.446] [INFO] default - Order - Step 02: Enter to Search textbox with value is'Balo Targus TSB906-70 M Black'
+[2022-09-01T21:19:43.464] [INFO] default - Order - Step 03: Click to 'Search' button
+[2022-09-01T21:19:45.477] [INFO] default - Order - Step 04: Click to Balo TSB855 link
+[2022-09-01T21:19:46.483] [INFO] default - Order - Step 06: Click to 'Thêm vào giỏ hàng' button.
+[2022-09-01T21:20:42.885] [INFO] default - -------------------FAILED-----------------
+[2022-09-01T21:20:42.888] [INFO] default - TC03 Increase quantity in cart
+[2022-09-01T21:20:42.889] [INFO] default - Order - Step 01: Click to '+' icon
+[2022-09-01T21:20:43.905] [INFO] default - Order - Step 02: Click to '+' icon
+[2022-09-01T21:20:44.911] [INFO] default - Order - Step 03: Click to '+' icon
+[2022-09-01T21:23:44.995] [INFO] default - Pre-Condition - 01: Open homepage
+[2022-09-01T21:23:47.637] [INFO] default - Pre-Condition - 02: Login successfully
+[2022-09-01T21:23:52.702] [INFO] default - TC01 Order unsuccessfully if cart does not have item
+[2022-09-01T21:23:52.703] [INFO] default - Order - Step 01: Navigate to Cart page
+[2022-09-01T21:23:53.706] [INFO] default - Order - Step 02: Click to 'Order' button
+[2022-09-01T21:23:54.723] [INFO] default - Order - Step 03: Verify error message in alert
+[2022-09-01T21:23:54.730] [INFO] default - Order - Step 04: Click to 'OK' button in alert.
+[2022-09-01T21:23:54.743] [INFO] default - -------------------PASSED-----------------
+[2022-09-01T21:23:54.744] [INFO] default - TC02 Choose any 1 item add to cart
+[2022-09-01T21:23:54.745] [INFO] default - Order - Step 01: Navigate Home page
+[2022-09-01T21:23:55.757] [INFO] default - Order - Step 02: Enter to Search textbox with value is'Balo Targus TSB906-70 M Black'
+[2022-09-01T21:23:56.773] [INFO] default - Order - Step 03: Click to 'Search' button
+[2022-09-01T21:23:58.777] [INFO] default - Order - Step 04: Click to Balo TSB855 link
+[2022-09-01T21:23:59.791] [INFO] default - Order - Step 06: Click to 'Thêm vào giỏ hàng' button.
+[2022-09-01T21:25:28.931] [INFO] default - -------------------FAILED-----------------
+[2022-09-01T21:25:28.937] [INFO] default - TC03 Increase quantity in cart
+[2022-09-01T21:25:28.938] [INFO] default - Order - Step 01: Click to '+' icon
+[2022-09-01T21:25:29.952] [INFO] default - Order - Step 02: Click to '+' icon
+[2022-09-01T21:25:30.959] [INFO] default - Order - Step 03: Click to '+' icon
+[2022-09-01T21:25:31.964] [INFO] default - Order - Step 04: Verify total amount in cart
+[2022-09-01T21:27:34.913] [INFO] default - Pre-Condition - 01: Open homepage
+[2022-09-01T21:27:37.500] [INFO] default - Pre-Condition - 02: Login successfully
+[2022-09-01T21:27:42.568] [INFO] default - TC01 Order unsuccessfully if cart does not have item
+[2022-09-01T21:27:42.569] [INFO] default - Order - Step 01: Navigate to Cart page
+[2022-09-01T21:27:43.577] [INFO] default - Order - Step 02: Click to 'Order' button
+[2022-09-01T21:27:44.585] [INFO] default - Order - Step 03: Verify error message in alert
+[2022-09-01T21:27:44.592] [INFO] default - Order - Step 04: Click to 'OK' button in alert.
+[2022-09-01T21:27:44.605] [INFO] default - -------------------PASSED-----------------
+[2022-09-01T21:27:44.607] [INFO] default - TC02 Choose any 1 item add to cart
+[2022-09-01T21:27:44.608] [INFO] default - Order - Step 01: Navigate Home page
+[2022-09-01T21:27:45.620] [INFO] default - Order - Step 02: Enter to Search textbox with value is'Balo Targus TSB906-70 M Black'
+[2022-09-01T21:27:46.622] [INFO] default - Order - Step 03: Click to 'Search' button
+[2022-09-01T21:27:48.626] [INFO] default - Order - Step 04: Click to Balo TSB855 link
+[2022-09-01T21:27:49.630] [INFO] default - Order - Step 06: Click to 'Thêm vào giỏ hàng' button.
+[2022-09-01T21:28:03.722] [INFO] default - -------------------FAILED-----------------
+[2022-09-01T21:30:59.261] [INFO] default - Pre-Condition - 01: Open homepage
+[2022-09-01T21:31:01.885] [INFO] default - Pre-Condition - 02: Login successfully
+[2022-09-01T21:31:06.972] [INFO] default - TC01 Order unsuccessfully if cart does not have item
+[2022-09-01T21:31:06.973] [INFO] default - Order - Step 01: Navigate to Cart page
+[2022-09-01T21:31:07.979] [INFO] default - Order - Step 02: Click to 'Order' button
+[2022-09-01T21:31:08.987] [INFO] default - Order - Step 03: Verify error message in alert
+[2022-09-01T21:31:08.994] [INFO] default - Order - Step 04: Click to 'OK' button in alert.
+[2022-09-01T21:31:09.005] [INFO] default - -------------------PASSED-----------------
+[2022-09-01T21:31:09.007] [INFO] default - TC02 Choose any 1 item add to cart
+[2022-09-01T21:31:09.008] [INFO] default - Order - Step 01: Navigate Home page
+[2022-09-01T21:31:10.021] [INFO] default - Order - Step 02: Enter to Search textbox with value is'Balo Targus TSB906-70 M Black'
+[2022-09-01T21:31:11.038] [INFO] default - Order - Step 03: Click to 'Search' button
+[2022-09-01T21:31:13.052] [INFO] default - Order - Step 04: Click to Balo TSB855 link
+[2022-09-01T21:31:14.059] [INFO] default - Order - Step 05: Click to 'Thêm vào giỏ hàng' button.
+[2022-09-01T21:31:15.165] [INFO] default - Order - Step 07: Verify total amount in cart
+[2022-09-01T21:31:15.213] [INFO] default - -------------------PASSED-----------------
+[2022-09-01T21:31:52.422] [INFO] default - Pre-Condition - 01: Open homepage
+[2022-09-01T21:31:55.039] [INFO] default - Pre-Condition - 02: Login successfully
+[2022-09-01T21:32:00.103] [INFO] default - TC01 Order unsuccessfully if cart does not have item
+[2022-09-01T21:32:00.103] [INFO] default - Order - Step 01: Navigate to Cart page
+[2022-09-01T21:32:01.116] [INFO] default - Order - Step 02: Click to 'Order' button
+[2022-09-01T21:32:02.123] [INFO] default - Order - Step 03: Verify error message in alert
+[2022-09-01T21:32:02.130] [INFO] default - Order - Step 04: Click to 'OK' button in alert.
+[2022-09-01T21:32:02.137] [INFO] default - -------------------PASSED-----------------
+[2022-09-01T21:32:02.138] [INFO] default - TC02 Choose any 1 item add to cart
+[2022-09-01T21:32:02.139] [INFO] default - Order - Step 01: Navigate Home page
+[2022-09-01T21:32:03.143] [INFO] default - Order - Step 02: Enter to Search textbox with value is'Balo Targus TSB906-70 M Black'
+[2022-09-01T21:32:04.157] [INFO] default - Order - Step 03: Click to 'Search' button
+[2022-09-01T21:32:06.171] [INFO] default - Order - Step 04: Click to Balo TSB855 link
+[2022-09-01T21:32:07.179] [INFO] default - Order - Step 05: Click to 'Thêm vào giỏ hàng' button.
+[2022-09-01T21:32:08.295] [INFO] default - Order - Step 07: Verify total amount in cart
+[2022-09-01T21:32:08.344] [INFO] default - -------------------PASSED-----------------
+[2022-09-01T21:32:08.345] [INFO] default - TC03 Increase quantity in cart
+[2022-09-01T21:32:08.345] [INFO] default - Order - Step 01: Click to '+' icon
+[2022-09-01T21:32:09.359] [INFO] default - Order - Step 02: Click to '+' icon
+[2022-09-01T21:32:10.367] [INFO] default - Order - Step 03: Click to '+' icon
+[2022-09-01T21:32:11.371] [INFO] default - Order - Step 04: Verify total amount in cart
+[2022-09-01T21:32:11.444] [INFO] default - -------------------PASSED-----------------
+[2022-09-01T21:32:11.445] [INFO] default - TC04 Descrease quantity in cart
+[2022-09-01T21:32:11.445] [INFO] default - Order - Step 01: Click to '-' icon
+[2022-09-01T21:32:12.456] [INFO] default - Order - Step 02: Click to '-' icon
+[2022-09-01T21:32:13.461] [INFO] default - Order - Step 02: Verify total amount in cart
+[2022-09-01T21:32:13.542] [INFO] default - -------------------PASSED-----------------
+[2022-09-01T21:32:13.543] [INFO] default - TC05 Add other items to cart
+[2022-09-01T21:32:13.544] [INFO] default - Order - Step 01: Click to 'Mua thêm sản phẩm khác' link
+[2022-09-01T21:32:14.556] [INFO] default - Order - Step 02: Enter to Search textbox with value is'Túi Xách Simplecarry Gymbag S Black'
+[2022-09-01T21:32:15.557] [INFO] default - Order - Step 03: Click to 'Search' button
+[2022-09-01T21:32:17.572] [INFO] default - Order - Step 04: Click to item link
+[2022-09-01T21:32:18.576] [INFO] default - Order - Step 05: Click to 'Thêm vào giỏ hàng' button
+[2022-09-01T21:32:19.589] [INFO] default - -------------------PASSED-----------------
+[2022-09-01T21:32:20.660] [INFO] default - -------------------PASSED-----------------
+[2022-09-01T21:32:20.661] [INFO] default - TC07 Order unsuccessfully with empty address and phone number
+[2022-09-01T21:32:20.661] [INFO] default - Order - Step 01: Click to 'Tiến hành đặt hàng' button
+[2022-09-01T21:32:21.677] [INFO] default - Order - Step 02: Verify oder popup is displayed
+[2022-09-01T21:32:21.731] [INFO] default - Order - Step 03: Click to 'Đặt hàng' button
+[2022-09-01T21:32:22.733] [INFO] default - Order - Step 04: Verify empty address message is displayed.
+[2022-09-01T21:32:22.763] [INFO] default - Order - Step 05: Verify empty phone number message is displayed.
+[2022-09-01T21:32:22.785] [INFO] default - Order - Step 06: Click to close popup icon
+[2022-09-01T21:32:22.787] [INFO] default - -------------------PASSED-----------------
+[2022-09-01T21:32:22.788] [INFO] default - TC08 Order successfully with valid data
+[2022-09-01T21:32:22.789] [INFO] default - Order - Step 01: Click to 'Tiến hành đặt hàng' button
+[2022-09-01T21:32:23.793] [INFO] default - Order - Step 02: Verify oder popup is displayed
+[2022-09-01T21:32:23.820] [INFO] default - Order - Step 03: Enter to Address textbox with valid value is Thu Duc'
+[2022-09-01T21:32:24.823] [INFO] default - Order - Step 04: Enter to Phone Number textbox with valid value is 0123456789'
+[2022-09-01T21:32:25.835] [INFO] default - Order - Step 05: Click to 'Đặt hàng' button
+[2022-09-01T21:32:30.845] [INFO] default - Order - Step 06: Navigate to 'Lịch sử mua hàng' page
+[2022-09-01T21:32:31.857] [INFO] default - Order - Step 07: Verify this order is displayed in this history page
+[2022-09-01T21:32:31.918] [INFO] default - -------------------PASSED-----------------
+[2022-09-01T21:48:33.027] [INFO] default - Pre-Condition - 01: Open homepage
+[2022-09-01T21:48:35.620] [INFO] default - Pre-Condition - 02: Login successfully
+[2022-09-01T21:48:40.686] [INFO] default - TC01 Order unsuccessfully if cart does not have item
+[2022-09-01T21:48:40.686] [INFO] default - Order - Step 01: Navigate to Cart page
+[2022-09-01T21:48:41.702] [INFO] default - Order - Step 02: Click to 'Order' button
+[2022-09-01T21:48:42.713] [INFO] default - Order - Step 03: Verify error message in alert
+[2022-09-01T21:48:42.719] [INFO] default - Order - Step 04: Click to 'OK' button in alert.
+[2022-09-01T21:48:42.725] [INFO] default - -------------------PASSED-----------------
+[2022-09-01T21:48:42.727] [INFO] default - TC02 Choose any 1 item add to cart
+[2022-09-01T21:48:42.728] [INFO] default - Order - Step 01: Navigate Home page
+[2022-09-01T21:48:43.745] [INFO] default - Order - Step 02: Enter to Search textbox with value is'Balo Targus TSB906-70 M Black'
+[2022-09-01T21:48:44.749] [INFO] default - Order - Step 03: Click to 'Search' button
+[2022-09-01T21:48:46.765] [INFO] default - Order - Step 04: Click to Balo TSB855 link
+[2022-09-01T21:48:46.774] [INFO] default - -------------------FAILED-----------------
+[2022-09-01T21:50:28.695] [INFO] default - Pre-Condition - 01: Open homepage
+[2022-09-01T21:50:31.356] [INFO] default - Pre-Condition - 02: Login successfully
+[2022-09-01T21:50:36.429] [INFO] default - TC01 Order unsuccessfully if cart does not have item
+[2022-09-01T21:50:36.429] [INFO] default - Order - Step 01: Navigate to Cart page
+[2022-09-01T21:50:37.434] [INFO] default - Order - Step 02: Click to 'Order' button
+[2022-09-01T21:50:38.443] [INFO] default - Order - Step 03: Verify error message in alert
+[2022-09-01T21:50:38.450] [INFO] default - Order - Step 04: Click to 'OK' button in alert.
+[2022-09-01T21:50:38.462] [INFO] default - -------------------PASSED-----------------
+[2022-09-01T21:50:38.465] [INFO] default - TC02 Choose any 1 item add to cart
+[2022-09-01T21:50:38.466] [INFO] default - Order - Step 01: Navigate Home page
+[2022-09-01T21:50:39.480] [INFO] default - Order - Step 02: Enter to Search textbox with value is'Balo Targus TSB906-70 M Black'
+[2022-09-01T21:50:40.495] [INFO] default - Order - Step 03: Click to 'Search' button
+[2022-09-01T21:50:42.497] [INFO] default - Order - Step 04: Click to Balo TSB855 link
+[2022-09-01T21:50:42.500] [INFO] default - -------------------FAILED-----------------
+[2022-09-01T21:52:04.082] [INFO] default - Pre-Condition - 01: Open homepage
+[2022-09-01T21:52:06.689] [INFO] default - Pre-Condition - 02: Login successfully
+[2022-09-01T21:52:11.747] [INFO] default - TC01 Order unsuccessfully if cart does not have item
+[2022-09-01T21:52:11.748] [INFO] default - Order - Step 01: Navigate to Cart page
+[2022-09-01T21:52:12.752] [INFO] default - Order - Step 02: Click to 'Order' button
+[2022-09-01T21:52:13.756] [INFO] default - Order - Step 03: Verify error message in alert
+[2022-09-01T21:52:13.762] [INFO] default - Order - Step 04: Click to 'OK' button in alert.
+[2022-09-01T21:52:13.770] [INFO] default - -------------------PASSED-----------------
+[2022-09-01T21:52:13.772] [INFO] default - TC02 Choose any 1 item add to cart
+[2022-09-01T21:52:13.772] [INFO] default - Order - Step 01: Navigate Home page
+[2022-09-01T21:52:14.787] [INFO] default - Order - Step 02: Enter to Search textbox with value is'Balo Targus TSB906-70 M Black'
+[2022-09-01T21:52:15.803] [INFO] default - Order - Step 03: Click to 'Search' button
+[2022-09-01T21:52:17.819] [INFO] default - Order - Step 04: Click to Balo TSB855 link
+[2022-09-01T21:52:17.827] [INFO] default - -------------------FAILED-----------------
+[2022-09-01T21:53:07.529] [INFO] default - Pre-Condition - 01: Open homepage
+[2022-09-01T21:53:10.105] [INFO] default - Pre-Condition - 02: Login successfully
+[2022-09-01T21:53:15.195] [INFO] default - TC01 Order unsuccessfully if cart does not have item
+[2022-09-01T21:53:15.195] [INFO] default - Order - Step 01: Navigate to Cart page
+[2022-09-01T21:53:16.198] [INFO] default - Order - Step 02: Click to 'Order' button
+[2022-09-01T21:53:17.207] [INFO] default - Order - Step 03: Verify error message in alert
+[2022-09-01T21:53:17.214] [INFO] default - Order - Step 04: Click to 'OK' button in alert.
+[2022-09-01T21:53:17.222] [INFO] default - -------------------PASSED-----------------
+[2022-09-01T21:53:17.224] [INFO] default - TC02 Choose any 1 item add to cart
+[2022-09-01T21:53:17.225] [INFO] default - Order - Step 01: Navigate Home page
+[2022-09-01T21:53:18.240] [INFO] default - Order - Step 02: Enter to Search textbox with value is'Balo Targus TSB906-70 M Black'
+[2022-09-01T21:53:19.246] [INFO] default - Order - Step 03: Click to 'Search' button
+[2022-09-01T21:53:21.260] [INFO] default - Order - Step 04: Click to Balo TSB855 link
+[2022-09-01T21:53:22.277] [INFO] default - Order - Step 05: Click to 'Thêm vào giỏ hàng' button.
+[2022-09-01T21:53:23.402] [INFO] default - Order - Step 07: Verify total amount in cart
+[2022-09-01T21:53:23.471] [INFO] default - -------------------PASSED-----------------
+[2022-09-01T21:54:58.096] [INFO] default - Pre-Condition - 01: Open homepage
+[2022-09-01T21:55:00.808] [INFO] default - Pre-Condition - 02: Login successfully
+[2022-09-01T21:55:05.863] [INFO] default - TC01 Order unsuccessfully if cart does not have item
+[2022-09-01T21:55:05.863] [INFO] default - Order - Step 01: Navigate to Cart page
+[2022-09-01T21:55:06.870] [INFO] default - Order - Step 02: Click to 'Order' button
+[2022-09-01T21:55:07.886] [INFO] default - Order - Step 03: Verify error message in alert
+[2022-09-01T21:55:07.888] [INFO] default - Order - Step 04: Click to 'OK' button in alert.
+[2022-09-01T21:55:07.892] [INFO] default - -------------------PASSED-----------------
+[2022-09-01T21:55:07.893] [INFO] default - TC02 Choose any 1 item add to cart
+[2022-09-01T21:55:07.894] [INFO] default - Order - Step 01: Navigate Home page
+[2022-09-01T21:55:08.902] [INFO] default - Order - Step 02: Enter to Search textbox with value is'Balo Targus TSB906-70 M Black'
+[2022-09-01T21:55:09.917] [INFO] default - Order - Step 03: Click to 'Search' button
+[2022-09-01T21:55:11.928] [INFO] default - Order - Step 04: Click to Balo TSB855 link
+[2022-09-01T21:55:12.950] [INFO] default - Order - Step 05: Click to 'Thêm vào giỏ hàng' button.
+[2022-09-01T21:55:14.059] [INFO] default - Order - Step 07: Verify total amount in cart
+[2022-09-01T21:55:14.123] [INFO] default - -------------------PASSED-----------------
+[2022-09-01T21:56:03.100] [INFO] default - Pre-Condition - 01: Open homepage
+[2022-09-01T21:56:05.810] [INFO] default - Pre-Condition - 02: Login successfully
+[2022-09-01T21:56:21.623] [INFO] default - Pre-Condition - 01: Open homepage
+[2022-09-01T21:56:24.202] [INFO] default - Pre-Condition - 02: Login successfully
+[2022-09-01T21:56:29.261] [INFO] default - TC01 Order unsuccessfully if cart does not have item
+[2022-09-01T21:56:29.262] [INFO] default - Order - Step 01: Navigate to Cart page
+[2022-09-01T21:56:30.274] [INFO] default - Order - Step 02: Click to 'Order' button
+[2022-09-01T21:56:31.278] [INFO] default - Order - Step 03: Verify error message in alert
+[2022-09-01T21:56:31.286] [INFO] default - Order - Step 04: Click to 'OK' button in alert.
+[2022-09-01T21:56:31.296] [INFO] default - -------------------PASSED-----------------
+[2022-09-01T21:56:31.298] [INFO] default - TC02 Choose any 1 item add to cart
+[2022-09-01T21:56:31.299] [INFO] default - Order - Step 01: Navigate Home page
+[2022-09-01T21:56:32.305] [INFO] default - Order - Step 02: Enter to Search textbox with value is'Balo Targus TSB906-70 M Black'
+[2022-09-01T21:56:33.312] [INFO] default - Order - Step 03: Click to 'Search' button
+[2022-09-01T21:56:35.324] [INFO] default - Order - Step 04: Click to Balo TSB855 link
+[2022-09-01T21:56:36.339] [INFO] default - Order - Step 05: Click to 'Thêm vào giỏ hàng' button.
+[2022-09-01T21:56:37.455] [INFO] default - Order - Step 07: Verify total amount in cart
+[2022-09-01T21:56:37.531] [INFO] default - -------------------PASSED-----------------
+[2022-09-01T22:02:45.194] [INFO] default - Pre-Condition - 01: Open homepage
+[2022-09-01T22:02:47.776] [INFO] default - Pre-Condition - 02: Login successfully
+[2022-09-01T22:02:52.832] [INFO] default - TC01 Order unsuccessfully if cart does not have item
+[2022-09-01T22:02:52.833] [INFO] default - Order - Step 01: Navigate to Cart page
+[2022-09-01T22:02:53.837] [INFO] default - Order - Step 02: Click to 'Order' button
+[2022-09-01T22:02:54.844] [INFO] default - Order - Step 03: Verify error message in alert
+[2022-09-01T22:02:54.850] [INFO] default - Order - Step 04: Click to 'OK' button in alert.
+[2022-09-01T22:02:54.855] [INFO] default - -------------------PASSED-----------------
+[2022-09-01T22:02:54.857] [INFO] default - TC02 Choose any 1 item add to cart
+[2022-09-01T22:02:54.858] [INFO] default - Order - Step 01: Navigate Home page
+[2022-09-01T22:02:55.869] [INFO] default - Order - Step 02: Enter to Search textbox with value is'Balo Targus TSB906-70 M Black'
+[2022-09-01T22:02:56.884] [INFO] default - Order - Step 03: Click to 'Search' button
+[2022-09-01T22:02:58.900] [INFO] default - Order - Step 04: Click to Balo TSB855 link
+[2022-09-01T22:02:59.921] [INFO] default - Order - Step 05: Click to 'Thêm vào giỏ hàng' button.
+[2022-09-01T22:03:01.008] [INFO] default - Order - Step 07: Verify total amount in cart
+[2022-09-01T22:03:01.057] [INFO] default - -------------------PASSED-----------------
+[2022-09-01T22:07:52.431] [INFO] default - Pre-Condition - 01: Open homepage
+[2022-09-01T22:07:55.047] [INFO] default - Pre-Condition - 02: Login successfully
+[2022-09-01T22:08:00.101] [INFO] default - TC01 Order unsuccessfully if cart does not have item
+[2022-09-01T22:08:00.102] [INFO] default - Order - Step 01: Navigate to Cart page
+[2022-09-01T22:08:01.108] [INFO] default - Order - Step 02: Click to 'Order' button
+[2022-09-01T22:08:02.122] [INFO] default - Order - Step 03: Verify error message in alert
+[2022-09-01T22:08:02.124] [INFO] default - Order - Step 04: Click to 'OK' button in alert.
+[2022-09-01T22:08:02.130] [INFO] default - -------------------PASSED-----------------
+[2022-09-01T22:08:02.132] [INFO] default - TC02 Choose any 1 item add to cart
+[2022-09-01T22:08:02.133] [INFO] default - Order - Step 01: Navigate Home page
+[2022-09-01T22:08:03.139] [INFO] default - Order - Step 02: Enter to Search textbox with value is'Balo Targus TSB906-70 M Black'
+[2022-09-01T22:08:04.154] [INFO] default - Order - Step 03: Click to 'Search' button
+[2022-09-01T22:08:06.161] [INFO] default - Order - Step 04: Click to Balo TSB855 link
+[2022-09-01T22:08:07.178] [INFO] default - Order - Step 05: Click to 'Thêm vào giỏ hàng' button.
+[2022-09-01T22:08:08.266] [INFO] default - Order - Step 07: Verify total amount in cart
+[2022-09-01T22:08:08.312] [INFO] default - -------------------PASSED-----------------
+[2022-09-01T22:08:08.313] [INFO] default - TC03 Increase quantity in cart
+[2022-09-01T22:08:08.314] [INFO] default - Order - Step 01: Click to '+' icon
+[2022-09-01T22:08:09.327] [INFO] default - Order - Step 02: Click to '+' icon
+[2022-09-01T22:08:10.343] [INFO] default - Order - Step 03: Click to '+' icon
+[2022-09-01T22:08:11.348] [INFO] default - Order - Step 04: Verify total amount in cart
+[2022-09-01T22:08:11.428] [INFO] default - -------------------PASSED-----------------
+[2022-09-01T22:08:11.429] [INFO] default - TC04 Descrease quantity in cart
+[2022-09-01T22:08:11.430] [INFO] default - Order - Step 01: Click to '-' icon
+[2022-09-01T22:08:12.434] [INFO] default - Order - Step 02: Click to '-' icon
+[2022-09-01T22:08:13.446] [INFO] default - Order - Step 02: Verify total amount in cart
+[2022-09-01T22:08:13.529] [INFO] default - -------------------PASSED-----------------
+[2022-09-01T22:08:13.530] [INFO] default - TC05 Add other items to cart
+[2022-09-01T22:08:13.531] [INFO] default - Order - Step 01: Click to 'Mua thêm sản phẩm khác' link
+[2022-09-01T22:08:14.535] [INFO] default - Order - Step 02: Enter to Search textbox with value is'Túi Xách Simplecarry Gymbag S Black'
+[2022-09-01T22:08:15.549] [INFO] default - Order - Step 03: Click to 'Search' button
+[2022-09-01T22:08:17.561] [INFO] default - Order - Step 04: Click to item link
+[2022-09-01T22:08:18.576] [INFO] default - Order - Step 05: Click to 'Thêm vào giỏ hàng' button
+[2022-09-01T22:08:19.593] [INFO] default - -------------------PASSED-----------------
+[2022-09-01T22:08:20.664] [INFO] default - -------------------PASSED-----------------
+[2022-09-01T22:08:20.665] [INFO] default - TC07 Order unsuccessfully with empty address and phone number
+[2022-09-01T22:08:20.666] [INFO] default - Order - Step 01: Click to 'Tiến hành đặt hàng' button
+[2022-09-01T22:08:21.669] [INFO] default - Order - Step 02: Verify oder popup is displayed
+[2022-09-01T22:08:21.709] [INFO] default - Order - Step 03: Click to 'Đặt hàng' button
+[2022-09-01T22:08:22.716] [INFO] default - Order - Step 04: Verify empty address message is displayed.
+[2022-09-01T22:08:22.763] [INFO] default - Order - Step 05: Verify empty phone number message is displayed.
+[2022-09-01T22:08:22.785] [INFO] default - Order - Step 06: Click to close popup icon
+[2022-09-01T22:08:22.787] [INFO] default - -------------------PASSED-----------------
+[2022-09-01T22:08:22.788] [INFO] default - TC08 Order successfully with valid data
+[2022-09-01T22:08:22.788] [INFO] default - Order - Step 01: Click to 'Tiến hành đặt hàng' button
+[2022-09-01T22:08:23.795] [INFO] default - Order - Step 02: Verify oder popup is displayed
+[2022-09-01T22:08:23.835] [INFO] default - Order - Step 03: Enter to Address textbox with valid value is Thu Duc'
+[2022-09-01T22:08:24.842] [INFO] default - Order - Step 04: Enter to Phone Number textbox with valid value is 0123456789'
+[2022-09-01T22:08:25.857] [INFO] default - Order - Step 05: Click to 'Đặt hàng' button
+[2022-09-01T22:08:30.874] [INFO] default - Order - Step 06: Navigate to 'Lịch sử mua hàng' page
+[2022-09-01T22:08:31.880] [INFO] default - Order - Step 07: Verify this order is displayed in this history page
+[2022-09-01T22:08:31.934] [INFO] default - -------------------PASSED-----------------
+[2022-09-01T22:11:50.433] [INFO] default - Pre-Condition: Open homepage
+[2022-09-01T22:11:54.028] [INFO] default - Search-01 Search with empty data
+[2022-09-01T22:11:54.030] [INFO] default - Search - Step 01: Enter to Search textbox with empty data.
+[2022-09-01T22:11:54.033] [INFO] default - Search - Step 02: Click to 'Search' button.
+[2022-09-01T22:11:55.047] [INFO] default - Search - Step 03: Navigate to Home page
+[2022-09-01T22:11:55.055] [INFO] default - -------------------PASSED-----------------
+[2022-09-01T22:11:56.058] [INFO] default - Search-02 Search with data is not existing
+[2022-09-01T22:11:56.059] [INFO] default - Search - Step 01: Enter to Search textbox with value is 'aaaaaaaaaaaaaa'
+[2022-09-01T22:11:56.060] [INFO] default - Search - Step 02: Click to 'Search' button.
+[2022-09-01T22:11:57.065] [INFO] default - Search - Step 03: Verify 'aaaaaaaaaaaaaa' is not displayed.
+[2022-09-01T22:11:57.093] [INFO] default - -------------------PASSED-----------------
+[2022-09-01T22:11:58.105] [INFO] default - Search-03 Search with ralative data
+[2022-09-01T22:11:58.106] [INFO] default - Search - Step 01: Enter to Search textbox with value is 'túi xách'
+[2022-09-01T22:11:58.106] [INFO] default - Search - Step 02: Click to 'Search' button.
+[2022-09-01T22:11:59.120] [INFO] default - Search - Step 03: Verify result message is displayed.
+[2022-09-01T22:11:59.165] [INFO] default - -------------------PASSED-----------------
+[2022-09-01T22:12:00.184] [INFO] default - Search-04 Search with absolutely item
+[2022-09-01T22:12:00.186] [INFO] default - Search - Step 01: Enter to Search textbox with value is 'Túi Xách Targus TBT268AP-72 M Black'
+[2022-09-01T22:12:00.188] [INFO] default - Search - Step 02: Click to 'Search' button.
+[2022-09-01T22:12:01.191] [INFO] default - Search - Step 03: Verify result message is displayed.
+[2022-09-01T22:12:01.238] [INFO] default - Search - Step 04: Verify 1 item is displayed.
+[2022-09-01T22:12:01.260] [INFO] default - -------------------PASSED-----------------
+[2022-09-01T22:12:01.260] [INFO] default - Close the browser.
+[2022-09-03T01:14:44.269] [INFO] default - Pre-Condition: Open homepage
+[2022-09-03T01:14:47.889] [INFO] default - Search-01 Search with empty data
+[2022-09-03T01:14:47.891] [INFO] default - Search - Step 01: Enter to Search textbox with empty data.
+[2022-09-03T01:14:47.895] [INFO] default - Search - Step 02: Click to 'Search' button.
+[2022-09-03T01:14:48.906] [INFO] default - Search - Step 03: Navigate to Home page
+[2022-09-03T01:14:48.915] [INFO] default - -------------------PASSED-----------------
+[2022-09-03T01:14:49.934] [INFO] default - Search-02 Search with data is not existing
+[2022-09-03T01:14:49.936] [INFO] default - Search - Step 01: Enter to Search textbox with value is 'aaaaaaaaaaaaaa'
+[2022-09-03T01:14:49.938] [INFO] default - Search - Step 02: Click to 'Search' button.
+[2022-09-03T01:14:50.944] [INFO] default - Search - Step 03: Verify 'aaaaaaaaaaaaaa' is not displayed.
+[2022-09-03T01:14:50.971] [INFO] default - -------------------PASSED-----------------
+[2022-09-03T01:14:51.985] [INFO] default - Search-03 Search with ralative data
+[2022-09-03T01:14:51.987] [INFO] default - Search - Step 01: Enter to Search textbox with value is 'túi xách'
+[2022-09-03T01:14:51.988] [INFO] default - Search - Step 02: Click to 'Search' button.
+[2022-09-03T01:14:52.993] [INFO] default - Search - Step 03: Verify result message is displayed.
+[2022-09-03T01:14:53.032] [INFO] default - -------------------PASSED-----------------
+[2022-09-03T01:14:54.037] [INFO] default - Search-04 Search with absolutely item
+[2022-09-03T01:14:54.039] [INFO] default - Search - Step 01: Enter to Search textbox with value is 'Túi Xách Targus TBT268AP-72 M Black'
+[2022-09-03T01:14:54.042] [INFO] default - Search - Step 02: Click to 'Search' button.
+[2022-09-03T01:14:55.051] [INFO] default - Search - Step 03: Verify result message is displayed.
+[2022-09-03T01:14:55.131] [INFO] default - Search - Step 04: Verify 1 item is displayed.
+[2022-09-03T01:14:55.176] [INFO] default - -------------------PASSED-----------------
+[2022-09-03T01:14:55.177] [INFO] default - Close the browser.
+[2022-09-03T01:15:06.599] [INFO] default - Pre-Condition - 01: Open homepage
+[2022-09-03T01:15:09.268] [INFO] default - Pre-Condition - 02: Login successfully
+[2022-09-03T01:15:14.325] [INFO] default - TC01 Order unsuccessfully if cart does not have item
+[2022-09-03T01:15:14.326] [INFO] default - Order - Step 01: Navigate to Cart page
+[2022-09-03T01:15:15.342] [INFO] default - Order - Step 02: Click to 'Order' button
+[2022-09-03T01:15:16.361] [INFO] default - Order - Step 03: Verify error message in alert
+[2022-09-03T01:15:16.364] [INFO] default - Order - Step 04: Click to 'OK' button in alert.
+[2022-09-03T01:15:16.369] [INFO] default - -------------------PASSED-----------------
+[2022-09-03T01:15:16.372] [INFO] default - TC02 Choose any 1 item add to cart
+[2022-09-03T01:15:16.373] [INFO] default - Order - Step 01: Navigate Home page
+[2022-09-03T01:15:17.374] [INFO] default - Order - Step 02: Enter to Search textbox with value is'Balo Targus TSB906-70 M Black'
+[2022-09-03T01:15:18.386] [INFO] default - Order - Step 03: Click to 'Search' button
+[2022-09-03T01:15:20.388] [INFO] default - Order - Step 04: Click to Balo TSB855 link
+[2022-09-03T01:15:21.401] [INFO] default - Order - Step 05: Click to 'Thêm vào giỏ hàng' button.
+[2022-09-03T01:15:22.487] [INFO] default - Order - Step 07: Verify total amount in cart
+[2022-09-03T01:15:22.532] [INFO] default - -------------------PASSED-----------------
+[2022-09-03T01:15:22.534] [INFO] default - TC03 Increase quantity in cart
+[2022-09-03T01:15:22.534] [INFO] default - Order - Step 01: Click to '+' icon
+[2022-09-03T01:15:23.544] [INFO] default - Order - Step 02: Click to '+' icon
+[2022-09-03T01:15:24.562] [INFO] default - Order - Step 03: Click to '+' icon
+[2022-09-03T01:15:25.565] [INFO] default - Order - Step 04: Verify total amount in cart
+[2022-09-03T01:15:25.637] [INFO] default - -------------------PASSED-----------------
+[2022-09-03T01:15:25.637] [INFO] default - TC04 Descrease quantity in cart
+[2022-09-03T01:15:25.638] [INFO] default - Order - Step 01: Click to '-' icon
+[2022-09-03T01:15:26.651] [INFO] default - Order - Step 02: Click to '-' icon
+[2022-09-03T01:15:27.660] [INFO] default - Order - Step 02: Verify total amount in cart
+[2022-09-03T01:15:27.741] [INFO] default - -------------------PASSED-----------------
+[2022-09-03T01:15:27.742] [INFO] default - TC05 Add other items to cart
+[2022-09-03T01:15:27.742] [INFO] default - Order - Step 01: Click to 'Mua thêm sản phẩm khác' link
+[2022-09-03T01:15:28.757] [INFO] default - Order - Step 02: Enter to Search textbox with value is'Túi Xách Simplecarry Gymbag S Black'
+[2022-09-03T01:15:29.763] [INFO] default - Order - Step 03: Click to 'Search' button
+[2022-09-03T01:15:31.768] [INFO] default - Order - Step 04: Click to item link
+[2022-09-03T01:15:32.785] [INFO] default - Order - Step 05: Click to 'Thêm vào giỏ hàng' button
+[2022-09-03T01:15:33.790] [INFO] default - -------------------PASSED-----------------
+[2022-09-03T01:15:34.861] [INFO] default - -------------------PASSED-----------------
+[2022-09-03T01:15:34.862] [INFO] default - TC07 Order unsuccessfully with empty address and phone number
+[2022-09-03T01:15:34.862] [INFO] default - Order - Step 01: Click to 'Tiến hành đặt hàng' button
+[2022-09-03T01:15:35.862] [INFO] default - Order - Step 02: Verify oder popup is displayed
+[2022-09-03T01:15:35.894] [INFO] default - Order - Step 03: Click to 'Đặt hàng' button
+[2022-09-03T01:15:36.908] [INFO] default - Order - Step 04: Verify empty address message is displayed.
+[2022-09-03T01:15:36.932] [INFO] default - Order - Step 05: Verify empty phone number message is displayed.
+[2022-09-03T01:15:36.957] [INFO] default - Order - Step 06: Click to close popup icon
+[2022-09-03T01:15:36.959] [INFO] default - -------------------PASSED-----------------
+[2022-09-03T01:15:36.960] [INFO] default - TC08 Order successfully with valid data
+[2022-09-03T01:15:36.961] [INFO] default - Order - Step 01: Click to 'Tiến hành đặt hàng' button
+[2022-09-03T01:15:37.970] [INFO] default - Order - Step 02: Verify oder popup is displayed
+[2022-09-03T01:15:37.997] [INFO] default - Order - Step 03: Enter to Address textbox with valid value is Thu Duc'
+[2022-09-03T01:15:38.997] [INFO] default - Order - Step 04: Enter to Phone Number textbox with valid value is 0123456789'
+[2022-09-03T01:15:40.012] [INFO] default - Order - Step 05: Click to 'Đặt hàng' button
+[2022-09-03T01:15:45.022] [INFO] default - Order - Step 06: Navigate to 'Lịch sử mua hàng' page
+[2022-09-03T01:15:46.036] [INFO] default - Order - Step 07: Verify this order is displayed in this history page
+[2022-09-03T01:15:46.074] [INFO] default - -------------------FAILED-----------------
+[2022-09-03T01:31:49.637] [INFO] default - Pre-Condition - 01: Open homepage
+[2022-09-03T01:31:52.355] [INFO] default - Pre-Condition - 02: Login successfully
+[2022-09-03T01:31:57.438] [INFO] default - TC01 Order unsuccessfully if cart does not have item
+[2022-09-03T01:31:57.438] [INFO] default - Order - Step 01: Navigate to Cart page
+[2022-09-03T01:31:58.453] [INFO] default - Order - Step 02: Click to 'Order' button
+[2022-09-03T01:31:59.468] [INFO] default - Order - Step 03: Verify error message in alert
+[2022-09-03T01:31:59.471] [INFO] default - Order - Step 04: Click to 'OK' button in alert.
+[2022-09-03T01:31:59.476] [INFO] default - -------------------PASSED-----------------
+[2022-09-03T01:31:59.478] [INFO] default - TC02 Choose any 1 item add to cart
+[2022-09-03T01:31:59.478] [INFO] default - Order - Step 01: Navigate Home page
+[2022-09-03T01:32:00.493] [INFO] default - Order - Step 02: Enter to Search textbox with value is'Balo Targus TSB906-70 M Black'
+[2022-09-03T01:32:01.506] [INFO] default - Order - Step 03: Click to 'Search' button
+[2022-09-03T01:32:03.514] [INFO] default - Order - Step 04: Click to Balo TSB855 link
+[2022-09-03T01:32:04.524] [INFO] default - Order - Step 05: Click to 'Thêm vào giỏ hàng' button.
+[2022-09-03T01:32:05.623] [INFO] default - Order - Step 07: Verify total amount in cart
+[2022-09-03T01:32:05.667] [INFO] default - -------------------PASSED-----------------
+[2022-09-03T01:32:05.669] [INFO] default - TC03 Increase quantity in cart
+[2022-09-03T01:32:05.670] [INFO] default - Order - Step 01: Click to '+' icon
+[2022-09-03T01:32:06.671] [INFO] default - Order - Step 02: Click to '+' icon
+[2022-09-03T01:32:07.686] [INFO] default - Order - Step 03: Click to '+' icon
+[2022-09-03T01:32:08.687] [INFO] default - Order - Step 04: Verify total amount in cart
+[2022-09-03T01:32:08.765] [INFO] default - -------------------PASSED-----------------
+[2022-09-03T01:32:08.766] [INFO] default - TC04 Descrease quantity in cart
+[2022-09-03T01:32:08.767] [INFO] default - Order - Step 01: Click to '-' icon
+[2022-09-03T01:32:09.774] [INFO] default - Order - Step 02: Click to '-' icon
+[2022-09-03T01:32:10.780] [INFO] default - Order - Step 02: Verify total amount in cart
+[2022-09-03T01:32:10.850] [INFO] default - -------------------PASSED-----------------
+[2022-09-03T01:32:10.851] [INFO] default - TC05 Add other items to cart
+[2022-09-03T01:32:10.851] [INFO] default - Order - Step 01: Click to 'Mua thêm sản phẩm khác' link
+[2022-09-03T01:32:11.859] [INFO] default - Order - Step 02: Enter to Search textbox with value is'Túi Xách Simplecarry Gymbag S Black'
+[2022-09-03T01:32:12.865] [INFO] default - Order - Step 03: Click to 'Search' button
+[2022-09-03T01:32:14.875] [INFO] default - Order - Step 04: Click to item link
+[2022-09-03T01:32:15.883] [INFO] default - Order - Step 05: Click to 'Thêm vào giỏ hàng' button
+[2022-09-03T01:32:16.888] [INFO] default - -------------------PASSED-----------------
+[2022-09-03T01:32:17.951] [INFO] default - -------------------PASSED-----------------
+[2022-09-03T01:32:17.952] [INFO] default - TC07 Order unsuccessfully with empty address and phone number
+[2022-09-03T01:32:17.953] [INFO] default - Order - Step 01: Click to 'Tiến hành đặt hàng' button
+[2022-09-03T01:32:18.954] [INFO] default - Order - Step 02: Verify oder popup is displayed
+[2022-09-03T01:32:18.982] [INFO] default - Order - Step 03: Click to 'Đặt hàng' button
+[2022-09-03T01:32:19.994] [INFO] default - Order - Step 04: Verify empty address message is displayed.
+[2022-09-03T01:32:20.018] [INFO] default - Order - Step 05: Verify empty phone number message is displayed.
+[2022-09-03T01:32:20.042] [INFO] default - Order - Step 06: Click to close popup icon
+[2022-09-03T01:32:20.044] [INFO] default - -------------------PASSED-----------------
+[2022-09-03T01:32:20.046] [INFO] default - TC08 Order successfully with valid data
+[2022-09-03T01:32:20.046] [INFO] default - Order - Step 01: Click to 'Tiến hành đặt hàng' button
+[2022-09-03T01:32:21.050] [INFO] default - Order - Step 02: Verify oder popup is displayed
+[2022-09-03T01:32:21.097] [INFO] default - Order - Step 03: Enter to Address textbox with valid value is Thu Duc'
+[2022-09-03T01:32:22.113] [INFO] default - Order - Step 04: Enter to Phone Number textbox with valid value is 0123456789'
+[2022-09-03T01:32:23.129] [INFO] default - Order - Step 05: Click to 'Đặt hàng' button
+[2022-09-03T01:32:28.144] [INFO] default - Order - Step 06: Navigate to 'Lịch sử mua hàng' page
+[2022-09-03T01:32:29.155] [INFO] default - Order - Step 07: Verify this order is displayed in this history page
+[2022-09-03T01:32:29.214] [INFO] default - -------------------PASSED-----------------
+[2022-09-03T08:53:26.606] [INFO] default - Pre-Condition - 01: Open homepage
+[2022-09-03T08:53:29.316] [INFO] default - Register: Navigate to Register page
+[2022-09-03T08:53:31.332] [INFO] default - TC01 Register with empty value
+[2022-09-03T08:53:31.333] [INFO] default - Register - Step 01: Click to 'Register' button
+[2022-09-03T08:53:32.346] [INFO] default - Register - Step 02: Verify username empty message.
+[2022-09-03T08:53:32.377] [INFO] default - Register - Step 03: Verify password empty message.
+[2022-09-03T08:53:32.413] [INFO] default - Register - Step 04: Verify confirm password empty message.
+[2022-09-03T08:53:32.449] [INFO] default - Register - Step 05: Verify fullname empty message.
+[2022-09-03T08:53:32.520] [INFO] default - Register - Step 06: Verify email empty message.
+[2022-09-03T08:53:32.559] [INFO] default - -------------------PASSED-----------------
+[2022-09-03T08:53:32.560] [INFO] default - Register: Navigate to Register page
+[2022-09-03T08:53:34.572] [INFO] default - TC02 Register with password have less than 6 characters
+[2022-09-03T08:53:34.573] [INFO] default - Register - Step 01: Enter to Password textbox with value have less than 6 characters is '12345'
+[2022-09-03T08:53:34.574] [INFO] default - Register - Step 02: Click to 'Register' button
+[2022-09-03T08:53:35.586] [INFO] default - Register - Step 03: Verify password error message
+[2022-09-03T08:53:35.614] [INFO] default - -------------------PASSED-----------------
+[2022-09-03T08:53:35.615] [INFO] default - Register: Navigate to Register page
+[2022-09-03T08:53:37.616] [INFO] default - TC03 Register with confirm password different password
+[2022-09-03T08:53:37.616] [INFO] default - Register - Step 01: Enter to Password textbox with valid value is '123456'
+[2022-09-03T08:53:37.617] [INFO] default - Register - Step 02: Enter to Confirm Password textbox with invalid value is '12345678'
+[2022-09-03T08:53:37.617] [INFO] default - Register - Step 03: Click to 'Register' button
+[2022-09-03T08:53:38.626] [INFO] default - Register - Step 04: Verify confirm passwor error message
+[2022-09-03T08:53:38.656] [INFO] default - -------------------PASSED-----------------
+[2022-09-03T08:53:38.657] [INFO] default - Register: Navigate to Register page
+[2022-09-03T08:53:40.670] [INFO] default - TC04 Register with invalid email
+[2022-09-03T08:53:40.671] [INFO] default - Register - Step 01: Enter to Email textbox with invalid email is '123@123'
+[2022-09-03T08:53:40.672] [INFO] default - Register - Step 02: Click to 'Register' button
+[2022-09-03T08:53:41.686] [INFO] default - Register - Step 03: Verify email error message
+[2022-09-03T08:53:57.890] [INFO] default - Pre-Condition - 01: Open homepage
+[2022-09-03T08:54:00.547] [INFO] default - Pre-Condition - 02: Register successfully.
+[2022-09-03T08:54:24.548] [INFO] default - Pre-Condition - 01: Open homepage
+[2022-09-03T08:54:27.199] [INFO] default - Pre-Condition - 02: Register successfully.
+[2022-09-03T08:54:30.245] [INFO] default - TC04 Login successfully
+[2022-09-03T08:54:30.246] [INFO] default - Login - Step 01: Navigate to Login page
+[2022-09-03T08:54:32.249] [INFO] default - Login - Step 02: Enter to Username textbox with valid value is 'thuuuu393'
+[2022-09-03T08:54:33.251] [INFO] default - Login - Step 03: Enter to Password textbox with invalid value is '123456'
+[2022-09-03T08:54:34.262] [INFO] default - Login - Step 04: Click to 'Submit' button
+[2022-09-03T08:54:35.268] [INFO] default - Login - Step 05: Verify account's fullname is correct.
+[2022-09-03T08:54:35.306] [INFO] default - -------------------PASSED-----------------
+[2022-09-03T09:03:11.184] [INFO] default - Pre-Condition - 01: Open homepage
+[2022-09-03T09:03:13.844] [INFO] default - Pre-Condition - 02: Login successfully
+[2022-09-03T09:03:34.152] [INFO] default - Pre-Condition - 01: Open homepage
+[2022-09-03T09:03:36.834] [INFO] default - Pre-Condition - 02: Login successfully
+[2022-09-03T09:03:41.905] [INFO] default - TC01 Order unsuccessfully if cart does not have item
+[2022-09-03T09:03:41.906] [INFO] default - Order - Step 01: Navigate to Cart page
+[2022-09-03T09:03:42.920] [INFO] default - Order - Step 02: Click to 'Order' button
+[2022-09-03T09:03:43.934] [INFO] default - Order - Step 03: Verify error message in alert
+[2022-09-03T09:03:43.938] [INFO] default - Order - Step 04: Click to 'OK' button in alert.
+[2022-09-03T09:03:43.943] [INFO] default - -------------------PASSED-----------------
+[2022-09-03T09:03:43.946] [INFO] default - TC02 Choose any 1 item add to cart
+[2022-09-03T09:03:43.947] [INFO] default - Order - Step 01: Navigate Home page
+[2022-09-03T09:03:44.956] [INFO] default - Order - Step 02: Enter to Search textbox with value is'Balo Targus TSB906-70 M Black'
+[2022-09-03T09:03:45.966] [INFO] default - Order - Step 03: Click to 'Search' button
+[2022-09-03T09:03:47.976] [INFO] default - Order - Step 04: Click to Balo TSB855 link
+[2022-09-03T09:03:48.992] [INFO] default - Order - Step 05: Click to 'Thêm vào giỏ hàng' button.
+[2022-09-03T09:03:50.118] [INFO] default - Order - Step 07: Verify total amount in cart
+[2022-09-03T09:03:50.186] [INFO] default - -------------------PASSED-----------------
+[2022-09-03T09:19:05.588] [INFO] default - Pre-Condition - 01: Open homepage
+[2022-09-03T09:19:08.299] [INFO] default - Pre-Condition - 02: Login successfully
+[2022-09-03T09:19:13.370] [INFO] default - TC01 Order unsuccessfully if cart does not have item
+[2022-09-03T09:19:13.371] [INFO] default - Order - Step 01: Navigate to Cart page
+[2022-09-03T09:19:14.373] [INFO] default - Order - Step 02: Click to 'Order' button
+[2022-09-03T09:19:15.386] [INFO] default - Order - Step 03: Verify error message in alert
+[2022-09-03T09:19:33.952] [INFO] default - Pre-Condition - 01: Open homepage
+[2022-09-03T09:19:36.671] [INFO] default - Pre-Condition - 02: Register successfully.
+[2022-09-03T09:19:39.711] [INFO] default - TC1 Login with empty username
+[2022-09-03T09:19:39.712] [INFO] default - Login - Step 01: Navigate to Login page
+[2022-09-03T09:19:41.715] [INFO] default - Login - Step 02: Click to 'Submit' button
+[2022-09-03T09:19:42.730] [INFO] default - Login - Step 03: Verify error message in alert.
+[2022-09-03T09:19:42.733] [INFO] default - Login - Step 04: Click to 'OK' button in alert
+[2022-09-03T09:19:42.739] [INFO] default - -------------------PASSED-----------------
