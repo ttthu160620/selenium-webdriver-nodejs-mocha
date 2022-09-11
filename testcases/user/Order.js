@@ -84,122 +84,122 @@ describe('Order', async function(){
         await orderPage.verifyTotalAmount(orderData.attribute.value);
     });
 
-    // it('TC03 Increase quantity in cart', async function(){
-    //     log.info("TC03 Increase quantity in cart");
-    //     log.info("Order - Step 01: Click to '+' icon");
-    //     orderPage.clickToPlusIcon();
-    //     await driver.sleep(1000);
+    it('TC03 Increase quantity in cart', async function(){
+        log.info("TC03 Increase quantity in cart");
+        log.info("Order - Step 01: Click to '+' icon");
+        orderPage.clickToPlusIcon();
+        await driver.sleep(1000);
 
-    //     log.info("Order - Step 02: Click to '+' icon");
-    //     orderPage.clickToPlusIcon();
-    //     await driver.sleep(1000);
+        log.info("Order - Step 02: Click to '+' icon");
+        orderPage.clickToPlusIcon();
+        await driver.sleep(1000);
 
-    //     log.info("Order - Step 03: Click to '+' icon");
-    //     orderPage.clickToPlusIcon();
-    //     await driver.sleep(1000);
+        log.info("Order - Step 03: Click to '+' icon");
+        orderPage.clickToPlusIcon();
+        await driver.sleep(1000);
 
-    //     log.info("Order - Step 04: Verify total amount in cart");
-    //     let total = await orderPage.getTotalAmount(orderData.attribute.value);
-    //     console.log(total);
-    //     await orderPage.verifyTotalAmount(orderData.attribute.value);
-    // });
+        log.info("Order - Step 04: Verify total amount in cart");
+        let total = await orderPage.getTotalAmount(orderData.attribute.value);
+        console.log(total);
+        await orderPage.verifyTotalAmount(orderData.attribute.value);
+    });
 
-    // it('TC04 Descrease quantity in cart', async function(){
-    //     log.info("TC04 Descrease quantity in cart");
-    //     log.info("Order - Step 01: Click to '-' icon");
-    //     orderPage.clickToMinusIcon();
-    //     await driver.sleep(1000);
-    //     log.info("Order - Step 02: Click to '-' icon");
-    //     orderPage.clickToMinusIcon();
-    //     await driver.sleep(1000);
+    it('TC04 Descrease quantity in cart', async function(){
+        log.info("TC04 Descrease quantity in cart");
+        log.info("Order - Step 01: Click to '-' icon");
+        orderPage.clickToMinusIcon();
+        await driver.sleep(1000);
+        log.info("Order - Step 02: Click to '-' icon");
+        orderPage.clickToMinusIcon();
+        await driver.sleep(1000);
 
-    //     log.info("Order - Step 02: Verify total amount in cart");
-    //     let total = await orderPage.getTotalAmount(orderData.attribute.value);
-    //     console.log(total);
-    //     await orderPage.verifyTotalAmount(orderData.attribute.value);
-    // });
+        log.info("Order - Step 02: Verify total amount in cart");
+        let total = await orderPage.getTotalAmount(orderData.attribute.value);
+        console.log(total);
+        await orderPage.verifyTotalAmount(orderData.attribute.value);
+    });
 
-    // it('TC05 Add other items to cart', async function(){
-    //     log.info("TC05 Add other items to cart");
-    //     log.info("Order - Step 01: Click to 'Mua thêm sản phẩm khác' link");
-    //     orderPage.clickToAddAnotherItemLink();
-    //     await driver.sleep(1000);
+    it('TC05 Add other items to cart', async function(){
+        log.info("TC05 Add other items to cart");
+        log.info("Order - Step 01: Click to 'Mua thêm sản phẩm khác' link");
+        orderPage.clickToAddAnotherItemLink();
+        await driver.sleep(1000);
 
-    //     log.info("Order - Step 02: Enter to Search textbox with value is'" + orderData.items.handBack + "'");
-    //     homePage.inputSearchTextbox(orderData.items.handBack);
-    //     await driver.sleep(1000);
+        log.info("Order - Step 02: Enter to Search textbox with value is'" + orderData.items.handBack + "'");
+        homePage.inputSearchTextbox(orderData.items.handBack);
+        await driver.sleep(1000);
 
-    //     log.info("Order - Step 03: Click to 'Search' button");
-    //     homePage.clickToSearchButton();
-    //     await driver.sleep(2000);
+        log.info("Order - Step 03: Click to 'Search' button");
+        homePage.clickToSearchButton();
+        await driver.sleep(2000);
 
-    //     log.info("Order - Step 04: Click to item link");
-    //     orderPage.clickToHandBackGymbagLink("Túi Xách Simplecarry Gymbag S Black");
-    //     await driver.sleep(1000);
+        log.info("Order - Step 04: Click to item link");
+        orderPage.clickToHandBackGymbagLink("Túi Xách Simplecarry Gymbag S Black");
+        await driver.sleep(1000);
 
-    //     log.info("Order - Step 05: Click to 'Thêm vào giỏ hàng' button");
-    //     orderPage.clickToAddItemToCartButton();
-    //     await driver.sleep(1000);
-    // });
+        log.info("Order - Step 05: Click to 'Thêm vào giỏ hàng' button");
+        orderPage.clickToAddItemToCartButton();
+        await driver.sleep(1000);
+    });
 
-    // it('TC06 Remove item in cart', async function(){
-    //     orderPage.clickToDeleteHandbackButton("Túi Xách Simplecarry Gymbag S Black");
-    //     await driver.sleep(1000);
-    //     await orderPage.verifyTotalAmount(orderData.attribute.value);
-    // });
+    it('TC06 Remove item in cart', async function(){
+        orderPage.clickToDeleteHandbackButton("Túi Xách Simplecarry Gymbag S Black");
+        await driver.sleep(1000);
+        await orderPage.verifyTotalAmount(orderData.attribute.value);
+    });
 
-    // it('TC07 Order unsuccessfully with empty address and phone number', async function(){
-    //     log.info("TC07 Order unsuccessfully with empty address and phone number")
-    //     log.info("Order - Step 01: Click to 'Tiến hành đặt hàng' button");
-    //     orderPage.clickToOrderButton();
-    //     await driver.sleep(1000);
+    it('TC07 Order unsuccessfully with empty address and phone number', async function(){
+        log.info("TC07 Order unsuccessfully with empty address and phone number")
+        log.info("Order - Step 01: Click to 'Tiến hành đặt hàng' button");
+        orderPage.clickToOrderButton();
+        await driver.sleep(1000);
 
-    //     log.info("Order - Step 02: Verify oder popup is displayed");
-    //     await orderPage.verifyOrderPopupDisplayed();
+        log.info("Order - Step 02: Verify oder popup is displayed");
+        await orderPage.verifyOrderPopupDisplayed();
 
-    //     log.info("Order - Step 03: Click to 'Đặt hàng' button");
-    //     orderPage.clickToOrderButtonPopup();
-    //     await driver.sleep(1000);
+        log.info("Order - Step 03: Click to 'Đặt hàng' button");
+        orderPage.clickToOrderButtonPopup();
+        await driver.sleep(1000);
 
-    //     log.info("Order - Step 04: Verify empty address message is displayed.");
-    //     await orderPage.verifyEmptyAddressMessage();
+        log.info("Order - Step 04: Verify empty address message is displayed.");
+        await orderPage.verifyEmptyAddressMessage();
 
-    //     log.info("Order - Step 05: Verify empty phone number message is displayed.");
-    //     await orderPage.verifyEmptyPhoneMessage();
+        log.info("Order - Step 05: Verify empty phone number message is displayed.");
+        await orderPage.verifyEmptyPhoneMessage();
 
-    //     log.info("Order - Step 06: Click to close popup icon");
-    //     orderPage.clickToClosePopupIcon();
-    // });
+        log.info("Order - Step 06: Click to close popup icon");
+        orderPage.clickToClosePopupIcon();
+    });
 
-    // it ('TC08 Order successfully with valid data', async function(){
-    //     log.info("TC08 Order successfully with valid data");
-    //     log.info("Order - Step 01: Click to 'Tiến hành đặt hàng' button");
-    //     orderPage.clickToOrderButton();
-    //     await driver.sleep(1000);
+    it ('TC08 Order successfully with valid data', async function(){
+        log.info("TC08 Order successfully with valid data");
+        log.info("Order - Step 01: Click to 'Tiến hành đặt hàng' button");
+        orderPage.clickToOrderButton();
+        await driver.sleep(1000);
 
-    //     log.info("Order - Step 02: Verify oder popup is displayed");
-    //     await orderPage.verifyOrderPopupDisplayed();
+        log.info("Order - Step 02: Verify oder popup is displayed");
+        await orderPage.verifyOrderPopupDisplayed();
 
-    //     log.info("Order - Step 03: Enter to Address textbox with valid value is " +orderData.validInfor.address+ "'");
-    //     orderPage.inputAddressTextbox(orderData.validInfor.address);
-    //     await driver.sleep(1000);
+        log.info("Order - Step 03: Enter to Address textbox with valid value is " +orderData.validInfor.address+ "'");
+        orderPage.inputAddressTextbox(orderData.validInfor.address);
+        await driver.sleep(1000);
 
-    //     log.info("Order - Step 04: Enter to Phone Number textbox with valid value is " + orderData.validInfor.phoneNumber + "'");
-    //     orderPage.inputPhonTextbox(orderData.validInfor.phoneNumber);
-    //     await driver.sleep(1000);
+        log.info("Order - Step 04: Enter to Phone Number textbox with valid value is " + orderData.validInfor.phoneNumber + "'");
+        orderPage.inputPhonTextbox(orderData.validInfor.phoneNumber);
+        await driver.sleep(1000);
 
-    //     log.info("Order - Step 05: Click to 'Đặt hàng' button");
-    //     orderPage.clickToOrderButtonPopup();
-    //     await driver.sleep(5000);
+        log.info("Order - Step 05: Click to 'Đặt hàng' button");
+        orderPage.clickToOrderButtonPopup();
+        await driver.sleep(5000);
 
-    //     log.info("Order - Step 06: Navigate to 'Lịch sử mua hàng' page");
-    //     myAccountPage.clickToOrderHistoryLink();
-    //     await driver.sleep(1000);
+        log.info("Order - Step 06: Navigate to 'Lịch sử mua hàng' page");
+        myAccountPage.clickToOrderHistoryLink();
+        await driver.sleep(1000);
 
-    //     log.info("Order - Step 07: Verify this order is displayed in this history page");
-    //     await myAccountPage.verifyLastOrderDateText();
-    //     await myAccountPage.verifyBaloTSB855LinkHistoryDisplayed("Balo Targus TSB906-70 M Black");
-    // });
+        log.info("Order - Step 07: Verify this order is displayed in this history page");
+        await myAccountPage.verifyLastOrderDateText();
+        await myAccountPage.verifyBaloTSB855LinkHistoryDisplayed("Balo Targus TSB906-70 M Black");
+    });
 
     this.afterEach(function(){
         if(this.currentTest.state == 'passed'){

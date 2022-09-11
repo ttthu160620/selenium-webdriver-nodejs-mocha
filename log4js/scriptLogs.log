@@ -1302,3 +1302,125 @@
 [2022-09-03T09:19:42.730] [INFO] default - Login - Step 03: Verify error message in alert.
 [2022-09-03T09:19:42.733] [INFO] default - Login - Step 04: Click to 'OK' button in alert
 [2022-09-03T09:19:42.739] [INFO] default - -------------------PASSED-----------------
+[2022-09-10T19:31:43.861] [INFO] default - Pre-Condition - 01: Open homepage
+[2022-09-10T19:32:15.320] [INFO] default - Pre-Condition - 01: Open homepage
+[2022-09-10T19:36:16.127] [INFO] default - Pre-Condition - 01: Open homepage
+[2022-09-10T19:36:18.740] [INFO] default - Register: Navigate to Register page
+[2022-09-10T19:36:20.743] [INFO] default - TC01 Register with empty value
+[2022-09-10T19:36:20.744] [INFO] default - Register - Step 01: Click to 'Register' button
+[2022-09-10T19:36:21.744] [INFO] default - Register - Step 02: Verify username empty message.
+[2022-09-10T19:36:21.777] [INFO] default - Register - Step 03: Verify password empty message.
+[2022-09-10T19:36:21.823] [INFO] default - Register - Step 04: Verify confirm password empty message.
+[2022-09-10T19:36:21.868] [INFO] default - Register - Step 05: Verify fullname empty message.
+[2022-09-10T19:36:21.908] [INFO] default - Register - Step 06: Verify email empty message.
+[2022-09-10T19:36:21.951] [INFO] default - -------------------PASSED-----------------
+[2022-09-10T19:36:21.952] [INFO] default - Register: Navigate to Register page
+[2022-09-10T19:36:23.953] [INFO] default - TC02 Register with password have less than 6 characters
+[2022-09-10T19:36:23.953] [INFO] default - Register - Step 01: Enter to Password textbox with value have less than 6 characters is '12345'
+[2022-09-10T19:36:23.955] [INFO] default - Register - Step 02: Click to 'Register' button
+[2022-09-10T19:36:24.956] [INFO] default - Register - Step 03: Verify password error message
+[2022-09-10T19:36:25.007] [INFO] default - -------------------PASSED-----------------
+[2022-09-10T19:36:25.008] [INFO] default - Register: Navigate to Register page
+[2022-09-10T19:36:27.009] [INFO] default - TC03 Register with confirm password different password
+[2022-09-10T19:36:27.009] [INFO] default - Register - Step 01: Enter to Password textbox with valid value is '123456'
+[2022-09-10T19:36:27.010] [INFO] default - Register - Step 02: Enter to Confirm Password textbox with invalid value is '12345678'
+[2022-09-10T19:36:27.011] [INFO] default - Register - Step 03: Click to 'Register' button
+[2022-09-10T19:36:28.014] [INFO] default - Register - Step 04: Verify confirm passwor error message
+[2022-09-10T19:36:28.050] [INFO] default - -------------------PASSED-----------------
+[2022-09-10T19:36:28.051] [INFO] default - Register: Navigate to Register page
+[2022-09-10T19:36:30.052] [INFO] default - TC04 Register with invalid email
+[2022-09-10T19:36:30.054] [INFO] default - Register - Step 01: Enter to Email textbox with invalid email is '123@123'
+[2022-09-10T19:36:30.056] [INFO] default - Register - Step 02: Click to 'Register' button
+[2022-09-10T19:36:31.057] [INFO] default - Register - Step 03: Verify email error message
+[2022-09-10T19:36:31.127] [INFO] default - -------------------PASSED-----------------
+[2022-09-10T19:36:31.129] [INFO] default - Register: Navigate to Register page
+[2022-09-10T19:36:33.131] [INFO] default - TC05 Register successfully
+[2022-09-10T19:36:33.132] [INFO] default - Register - Step 01: Enter to Username with valid value is: 'thuuuu447'
+[2022-09-10T19:36:33.132] [INFO] default - Register - Step 02: Enter to Password with valid value is: '123456'
+[2022-09-10T19:36:33.133] [INFO] default - Register - Step 03: Enter to Confirm Password with valid value is: '123456'
+[2022-09-10T19:36:33.133] [INFO] default - Register - Step 04: Enter to Fullname with valid value is: 'Trần Thư'
+[2022-09-10T19:36:33.135] [INFO] default - Register - Step 05: Enter to Email with valid value is: 'thuu@gmail.com'
+[2022-09-10T19:36:33.135] [INFO] default - Register - Step 06: Enter to Birthday with valid value is: '1/2/2002'
+[2022-09-10T19:36:33.136] [INFO] default - Register - Step 07: Click to 'Regiister' button
+[2022-09-10T19:36:34.137] [INFO] default - Register - Step 08: Verify successful register message is displayed.
+[2022-09-10T19:36:34.182] [INFO] default - -------------------PASSED-----------------
+[2022-09-10T19:36:52.517] [INFO] default - Pre-Condition - 01: Open homepage
+[2022-09-10T19:36:55.114] [INFO] default - Register: Navigate to Register page
+[2022-09-10T19:36:57.117] [INFO] default - TC01 Register with empty value
+[2022-09-10T19:36:57.118] [INFO] default - Register - Step 01: Click to 'Register' button
+[2022-09-10T19:36:58.120] [INFO] default - Register - Step 02: Verify username empty message.
+[2022-09-10T19:36:58.148] [INFO] default - Register - Step 03: Verify password empty message.
+[2022-09-10T19:36:58.194] [INFO] default - Register - Step 04: Verify confirm password empty message.
+[2022-09-10T19:36:58.235] [INFO] default - Register - Step 05: Verify fullname empty message.
+[2022-09-10T19:36:58.279] [INFO] default - Register - Step 06: Verify email empty message.
+[2022-09-10T19:36:58.345] [INFO] default - -------------------PASSED-----------------
+[2022-09-10T19:36:58.346] [INFO] default - Register: Navigate to Register page
+[2022-09-10T19:37:00.348] [INFO] default - TC02 Register with password have less than 6 characters
+[2022-09-10T19:37:00.349] [INFO] default - Register - Step 01: Enter to Password textbox with value have less than 6 characters is '12345'
+[2022-09-10T19:37:00.350] [INFO] default - Register - Step 02: Click to 'Register' button
+[2022-09-10T19:37:01.352] [INFO] default - Register - Step 03: Verify password error message
+[2022-09-10T19:37:01.401] [INFO] default - -------------------PASSED-----------------
+[2022-09-10T19:37:01.402] [INFO] default - Register: Navigate to Register page
+[2022-09-10T19:37:03.404] [INFO] default - TC03 Register with confirm password different password
+[2022-09-10T19:37:03.404] [INFO] default - Register - Step 01: Enter to Password textbox with valid value is '123456'
+[2022-09-10T19:37:03.405] [INFO] default - Register - Step 02: Enter to Confirm Password textbox with invalid value is '12345678'
+[2022-09-10T19:37:03.406] [INFO] default - Register - Step 03: Click to 'Register' button
+[2022-09-10T19:37:04.408] [INFO] default - Register - Step 04: Verify confirm passwor error message
+[2022-09-10T19:37:04.443] [INFO] default - -------------------PASSED-----------------
+[2022-09-10T19:37:04.444] [INFO] default - Register: Navigate to Register page
+[2022-09-10T19:37:06.445] [INFO] default - TC04 Register with invalid email
+[2022-09-10T19:37:06.446] [INFO] default - Register - Step 01: Enter to Email textbox with invalid email is '123@123'
+[2022-09-10T19:37:06.447] [INFO] default - Register - Step 02: Click to 'Register' button
+[2022-09-10T19:37:07.448] [INFO] default - Register - Step 03: Verify email error message
+[2022-09-10T19:37:07.523] [INFO] default - -------------------PASSED-----------------
+[2022-09-10T19:37:07.524] [INFO] default - Register: Navigate to Register page
+[2022-09-10T19:37:09.528] [INFO] default - TC05 Register successfully
+[2022-09-10T19:37:09.528] [INFO] default - Register - Step 01: Enter to Username with valid value is: 'thuuuu451'
+[2022-09-10T19:37:09.529] [INFO] default - Register - Step 02: Enter to Password with valid value is: '123456'
+[2022-09-10T19:37:09.530] [INFO] default - Register - Step 03: Enter to Confirm Password with valid value is: '123456'
+[2022-09-10T19:37:09.531] [INFO] default - Register - Step 04: Enter to Fullname with valid value is: 'Trần Thư'
+[2022-09-10T19:37:09.532] [INFO] default - Register - Step 05: Enter to Email with valid value is: 'thuu@gmail.com'
+[2022-09-10T19:37:09.532] [INFO] default - Register - Step 06: Enter to Birthday with valid value is: '1/2/2002'
+[2022-09-10T19:37:09.533] [INFO] default - Register - Step 07: Click to 'Regiister' button
+[2022-09-10T19:37:10.533] [INFO] default - Register - Step 08: Verify successful register message is displayed.
+[2022-09-10T19:37:10.622] [INFO] default - -------------------PASSED-----------------
+[2022-09-10T20:12:11.283] [INFO] default - Pre-Condition - 01: Open homepage
+[2022-09-10T20:12:14.021] [INFO] default - Register: Navigate to Register page
+[2022-09-10T20:12:16.022] [INFO] default - TC01 Register with empty value
+[2022-09-10T20:12:16.024] [INFO] default - Register - Step 01: Click to 'Register' button
+[2022-09-10T20:12:17.024] [INFO] default - Register - Step 02: Verify username empty message.
+[2022-09-10T20:12:17.078] [INFO] default - Register - Step 03: Verify password empty message.
+[2022-09-10T20:12:17.137] [INFO] default - Register - Step 04: Verify confirm password empty message.
+[2022-09-10T20:12:17.167] [INFO] default - Register - Step 05: Verify fullname empty message.
+[2022-09-10T20:12:17.189] [INFO] default - Register - Step 06: Verify email empty message.
+[2022-09-10T20:12:17.227] [INFO] default - -------------------PASSED-----------------
+[2022-09-10T20:12:17.228] [INFO] default - Register: Navigate to Register page
+[2022-09-10T20:12:19.230] [INFO] default - TC02 Register with password have less than 6 characters
+[2022-09-10T20:12:19.230] [INFO] default - Register - Step 01: Enter to Password textbox with value have less than 6 characters is '12345'
+[2022-09-10T20:12:19.232] [INFO] default - Register - Step 02: Click to 'Register' button
+[2022-09-10T20:12:20.233] [INFO] default - Register - Step 03: Verify password error message
+[2022-09-10T20:12:20.273] [INFO] default - -------------------PASSED-----------------
+[2022-09-10T20:12:20.275] [INFO] default - Register: Navigate to Register page
+[2022-09-10T20:12:22.278] [INFO] default - TC03 Register with confirm password different password
+[2022-09-10T20:12:22.280] [INFO] default - Register - Step 01: Enter to Password textbox with valid value is '123456'
+[2022-09-10T20:12:22.281] [INFO] default - Register - Step 02: Enter to Confirm Password textbox with invalid value is '12345678'
+[2022-09-10T20:12:22.282] [INFO] default - Register - Step 03: Click to 'Register' button
+[2022-09-10T20:12:23.285] [INFO] default - Register - Step 04: Verify confirm passwor error message
+[2022-09-10T20:12:23.324] [INFO] default - -------------------PASSED-----------------
+[2022-09-10T20:12:23.325] [INFO] default - Register: Navigate to Register page
+[2022-09-10T20:12:25.326] [INFO] default - TC04 Register with invalid email
+[2022-09-10T20:12:25.327] [INFO] default - Register - Step 01: Enter to Email textbox with invalid email is '123@123'
+[2022-09-10T20:12:25.328] [INFO] default - Register - Step 02: Click to 'Register' button
+[2022-09-10T20:12:26.329] [INFO] default - Register - Step 03: Verify email error message
+[2022-09-10T20:12:26.376] [INFO] default - -------------------PASSED-----------------
+[2022-09-10T20:12:26.379] [INFO] default - Register: Navigate to Register page
+[2022-09-10T20:12:28.381] [INFO] default - TC05 Register successfully
+[2022-09-10T20:12:28.381] [INFO] default - Register - Step 01: Enter to Username with valid value is: 'thuuuu247'
+[2022-09-10T20:12:28.382] [INFO] default - Register - Step 02: Enter to Password with valid value is: '123456'
+[2022-09-10T20:12:28.383] [INFO] default - Register - Step 03: Enter to Confirm Password with valid value is: '123456'
+[2022-09-10T20:12:28.383] [INFO] default - Register - Step 04: Enter to Fullname with valid value is: 'Trần Thư'
+[2022-09-10T20:12:28.384] [INFO] default - Register - Step 05: Enter to Email with valid value is: 'thuu@gmail.com'
+[2022-09-10T20:12:28.385] [INFO] default - Register - Step 06: Enter to Birthday with valid value is: '1/2/2002'
+[2022-09-10T20:12:28.386] [INFO] default - Register - Step 07: Click to 'Regiister' button
+[2022-09-10T20:12:29.386] [INFO] default - Register - Step 08: Verify successful register message is displayed.
+[2022-09-10T20:12:29.440] [INFO] default - -------------------PASSED-----------------

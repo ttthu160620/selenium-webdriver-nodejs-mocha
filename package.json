@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "mocha ./testcases/user/Login.js --no-timeouts --reporter mochawesome --reporter-options  reportDir=./myReport,reportFilename=SeleniumReport ",
-    "testExtra":"mocha ./log4js/fsmodule.js --reporter mochawesome --reporter-options reportDir=./myReport,reportFilename=SeleniumReport",
+    "test": "mocha ./testcases/user/Register.js --no-timeouts --reporter mochawesome --reporter-options  reportDir=./myReport,reportFilename=SeleniumReport ",
+    "testExtra": "mocha ./log4js/fsmodule.js --reporter mochawesome --reporter-options reportDir=./myReport,reportFilename=SeleniumReport",
     "parallel": "mocha ./testcases/user/*.js --no-timeouts --parallel --reporter mochawesome --reporter-options reportDir=./myReport,reportFilename=SeleniumReport",
     "mocha": "mocha --no-timeouts",
     "create-object": "node ./create-object.js"
@@ -19,7 +19,7 @@
   "license": "ISC",
   "devDependencies": {
     "chai": "^4.3.6",
-    "chromedriver": "^103.0.0",
+    "chromedriver": "^105.0.0",
     "delay": "^5.0.0",
     "geckodriver": "^3.0.2",
     "jquery": "^3.6.0",

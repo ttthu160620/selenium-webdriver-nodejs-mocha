@@ -38,7 +38,7 @@ describe("Login", function() {
         await registerPage.verifySuccessfullRegisterMessage(registerData.successfullMessage.successfullRegister);
     })
     
-    it.only("TC01 Login with empty username", async function(){ 
+    it("TC01 Login with empty username", async function(){ 
         log.info("TC1 Login with empty username");
         log.info("Login - Step 01: Navigate to Login page");
         homePage.clickToLoginLink();
